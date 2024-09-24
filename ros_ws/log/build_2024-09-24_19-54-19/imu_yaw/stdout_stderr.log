@@ -1,0 +1,48 @@
+running egg_info
+creating ../../build/imu_yaw/imu_yaw.egg-info
+writing ../../build/imu_yaw/imu_yaw.egg-info/PKG-INFO
+writing dependency_links to ../../build/imu_yaw/imu_yaw.egg-info/dependency_links.txt
+writing entry points to ../../build/imu_yaw/imu_yaw.egg-info/entry_points.txt
+writing requirements to ../../build/imu_yaw/imu_yaw.egg-info/requires.txt
+writing top-level names to ../../build/imu_yaw/imu_yaw.egg-info/top_level.txt
+writing manifest file '../../build/imu_yaw/imu_yaw.egg-info/SOURCES.txt'
+reading manifest file '../../build/imu_yaw/imu_yaw.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/imu_yaw/imu_yaw.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build
+creating /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build/lib
+creating /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build/lib/imu_yaw
+copying imu_yaw/yaw_mux4.py -> /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build/lib/imu_yaw
+copying imu_yaw/yaw_mux8.py -> /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build/lib/imu_yaw
+copying imu_yaw/__init__.py -> /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build/lib/imu_yaw
+copying imu_yaw/imu_pub.py -> /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build/lib/imu_yaw
+copying imu_yaw/imu_yaw.py -> /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build/lib/imu_yaw
+running install
+running install_lib
+creating /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages/imu_yaw
+copying /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build/lib/imu_yaw/yaw_mux4.py -> /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages/imu_yaw
+copying /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build/lib/imu_yaw/yaw_mux8.py -> /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages/imu_yaw
+copying /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build/lib/imu_yaw/__init__.py -> /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages/imu_yaw
+copying /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build/lib/imu_yaw/imu_pub.py -> /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages/imu_yaw
+copying /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build/lib/imu_yaw/imu_yaw.py -> /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages/imu_yaw
+byte-compiling /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages/imu_yaw/yaw_mux4.py to yaw_mux4.cpython-310.pyc
+byte-compiling /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages/imu_yaw/yaw_mux8.py to yaw_mux8.cpython-310.pyc
+byte-compiling /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages/imu_yaw/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages/imu_yaw/imu_pub.py to imu_pub.cpython-310.pyc
+byte-compiling /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages/imu_yaw/imu_yaw.py to imu_yaw.cpython-310.pyc
+running install_data
+creating /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/share/ament_index
+creating /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/share/ament_index/resource_index
+creating /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/share/ament_index/resource_index/packages
+copying resource/imu_yaw -> /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/share/ament_index/resource_index/packages
+copying package.xml -> /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/share/imu_yaw
+running install_egg_info
+Copying ../../build/imu_yaw/imu_yaw.egg-info to /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages/imu_yaw-0.0.0-py3.10.egg-info
+running install_scripts
+Installing imu_pub script to /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/imu_yaw
+Installing imu_yaw script to /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/imu_yaw
+Installing yaw_mux4 script to /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/imu_yaw
+Installing yaw_mux8 script to /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/imu_yaw
+writing list of installed files to '/home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/install.log'

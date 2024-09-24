@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/imu_ros2_node.dir/src/accelgyrotemp_data_provider.cpp.o"
+  "CMakeFiles/imu_ros2_node.dir/src/accelgyrotemp_data_provider.cpp.o.d"
+  "CMakeFiles/imu_ros2_node.dir/src/accelgyrotemp_ros_publisher.cpp.o"
+  "CMakeFiles/imu_ros2_node.dir/src/accelgyrotemp_ros_publisher.cpp.o.d"
+  "CMakeFiles/imu_ros2_node.dir/src/iio_wrapper.cpp.o"
+  "CMakeFiles/imu_ros2_node.dir/src/iio_wrapper.cpp.o.d"
+  "CMakeFiles/imu_ros2_node.dir/src/imu_control_parameters.cpp.o"
+  "CMakeFiles/imu_ros2_node.dir/src/imu_control_parameters.cpp.o.d"
+  "CMakeFiles/imu_ros2_node.dir/src/imu_data_provider.cpp.o"
+  "CMakeFiles/imu_ros2_node.dir/src/imu_data_provider.cpp.o.d"
+  "CMakeFiles/imu_ros2_node.dir/src/imu_diag_data_provider.cpp.o"
+  "CMakeFiles/imu_ros2_node.dir/src/imu_diag_data_provider.cpp.o.d"
+  "CMakeFiles/imu_ros2_node.dir/src/imu_diag_ros_publisher.cpp.o"
+  "CMakeFiles/imu_ros2_node.dir/src/imu_diag_ros_publisher.cpp.o.d"
+  "CMakeFiles/imu_ros2_node.dir/src/imu_full_measured_data_provider.cpp.o"
+  "CMakeFiles/imu_ros2_node.dir/src/imu_full_measured_data_provider.cpp.o.d"
+  "CMakeFiles/imu_ros2_node.dir/src/imu_full_measured_data_ros_publisher.cpp.o"
+  "CMakeFiles/imu_ros2_node.dir/src/imu_full_measured_data_ros_publisher.cpp.o.d"
+  "CMakeFiles/imu_ros2_node.dir/src/imu_identification_data_provider.cpp.o"
+  "CMakeFiles/imu_ros2_node.dir/src/imu_identification_data_provider.cpp.o.d"
+  "CMakeFiles/imu_ros2_node.dir/src/imu_identification_ros_publisher.cpp.o"
+  "CMakeFiles/imu_ros2_node.dir/src/imu_identification_ros_publisher.cpp.o.d"
+  "CMakeFiles/imu_ros2_node.dir/src/imu_ros2_node.cpp.o"
+  "CMakeFiles/imu_ros2_node.dir/src/imu_ros2_node.cpp.o.d"
+  "CMakeFiles/imu_ros2_node.dir/src/imu_ros_publisher.cpp.o"
+  "CMakeFiles/imu_ros2_node.dir/src/imu_ros_publisher.cpp.o.d"
+  "CMakeFiles/imu_ros2_node.dir/src/ros_publisher_group.cpp.o"
+  "CMakeFiles/imu_ros2_node.dir/src/ros_publisher_group.cpp.o.d"
+  "CMakeFiles/imu_ros2_node.dir/src/velangtemp_data_provider.cpp.o"
+  "CMakeFiles/imu_ros2_node.dir/src/velangtemp_data_provider.cpp.o.d"
+  "CMakeFiles/imu_ros2_node.dir/src/velangtemp_ros_publisher.cpp.o"
+  "CMakeFiles/imu_ros2_node.dir/src/velangtemp_ros_publisher.cpp.o.d"
+  "CMakeFiles/imu_ros2_node.dir/src/worker_thread.cpp.o"
+  "CMakeFiles/imu_ros2_node.dir/src/worker_thread.cpp.o.d"
+  "imu_ros2_node"
+  "imu_ros2_node.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/imu_ros2_node.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

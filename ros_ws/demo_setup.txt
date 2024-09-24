@@ -1,0 +1,11 @@
+in GMSL_ros2_ws:
+
+1. source /opt/ros/humble/setup.bash
+2. source install/local_setup.bash
+3. export DEVICE_ID=adis16500
+4. open osc , in debug tab set adis16500 sampling frequency
+
+4.1 4 cameras
+	ros2 launch imu_ros2 gmsl_imu_4launch.py
+4.2 8 cameras
+	ros2 launch imu_ros2 gmsl_imu_8launch.py

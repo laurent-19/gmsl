@@ -1,0 +1,42 @@
+[0.022s] Invoking command in '/home/laurus/workspace/gmsl/ros_ws/build/imu_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw:/opt/ros/humble /usr/bin/cmake --build /home/laurus/workspace/gmsl/ros_ws/build/imu_ros2 -- -j8 -l8
+[0.443s] [35m[1mConsolidate compiler generated dependencies of target imu_ros2__rosidl_generator_c[0m
+[0.443s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.443s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.443s] [  7%] Built target imu_ros2__rosidl_generator_c
+[0.443s] [  8%] Built target imu_ros2__cpp
+[0.443s] [ 10%] Built target gtest_main
+[0.443s] [ 12%] Built target gtest
+[0.443s] [ 12%] Built target ament_cmake_python_copy_imu_ros2
+[0.443s] [35m[1mConsolidate compiler generated dependencies of target imu_ros2__rosidl_typesupport_cpp[0m
+[0.444s] [35m[1mConsolidate compiler generated dependencies of target imu_ros2__rosidl_typesupport_introspection_c[0m
+[0.444s] [35m[1mConsolidate compiler generated dependencies of target imu_ros2__rosidl_typesupport_fastrtps_cpp[0m
+[0.444s] [35m[1mConsolidate compiler generated dependencies of target imu_ros2__rosidl_typesupport_c[0m
+[0.444s] [35m[1mConsolidate compiler generated dependencies of target imu_ros2__rosidl_typesupport_fastrtps_c[0m
+[0.444s] [35m[1mConsolidate compiler generated dependencies of target imu_ros2__rosidl_typesupport_introspection_cpp[0m
+[0.444s] [ 20%] Built target imu_ros2__rosidl_typesupport_introspection_c
+[0.444s] [ 27%] Built target imu_ros2__rosidl_typesupport_cpp
+[0.444s] [ 35%] Built target imu_ros2__rosidl_typesupport_c
+[0.444s] [ 42%] Built target imu_ros2__rosidl_typesupport_fastrtps_c
+[0.444s] [ 50%] Built target imu_ros2__rosidl_typesupport_fastrtps_cpp
+[0.444s] [ 57%] Built target imu_ros2__rosidl_typesupport_introspection_cpp
+[0.444s] [35m[1mConsolidate compiler generated dependencies of target imu_ros2_test_node[0m
+[0.444s] [35m[1mConsolidate compiler generated dependencies of target imu_ros2_node[0m
+[0.444s] [ 57%] Built target imu_ros2
+[0.444s] [ 67%] Built target imu_ros2_test_node
+[0.445s] [ 68%] Built target imu_ros2__py
+[0.445s] [35m[1mConsolidate compiler generated dependencies of target imu_ros2__rosidl_generator_py[0m
+[0.445s] [ 87%] Built target imu_ros2_node
+[0.445s] [ 93%] Built target imu_ros2__rosidl_generator_py
+[0.445s] [35m[1mConsolidate compiler generated dependencies of target imu_ros2__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.445s] [35m[1mConsolidate compiler generated dependencies of target imu_ros2__rosidl_typesupport_c__pyext[0m
+[0.445s] [35m[1mConsolidate compiler generated dependencies of target imu_ros2__rosidl_typesupport_introspection_c__pyext[0m
+[0.445s] [ 95%] Built target imu_ros2__rosidl_typesupport_fastrtps_c__pyext
+[0.445s] [ 97%] Built target imu_ros2__rosidl_typesupport_introspection_c__pyext
+[0.445s] [100%] Built target imu_ros2__rosidl_typesupport_c__pyext
+[0.489s] running egg_info
+[0.490s] writing imu_ros2.egg-info/PKG-INFO
+[0.490s] writing dependency_links to imu_ros2.egg-info/dependency_links.txt
+[0.490s] writing top-level names to imu_ros2.egg-info/top_level.txt
+[0.493s] reading manifest file 'imu_ros2.egg-info/SOURCES.txt'
+[0.494s] writing manifest file 'imu_ros2.egg-info/SOURCES.txt'
+[0.522s] [100%] Built target ament_cmake_python_build_imu_ros2_egg

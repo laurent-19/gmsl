@@ -1,0 +1,1 @@
+Invoking command in '/home/laurus/workspace/gmsl/ros_ws/build/ros2_shared': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw:/opt/ros/humble /usr/bin/cmake /home/laurus/workspace/gmsl/ros_ws/src/ros2_shared -DCMAKE_INSTALL_PREFIX=/home/laurus/workspace/gmsl/ros_ws/install/ros2_shared

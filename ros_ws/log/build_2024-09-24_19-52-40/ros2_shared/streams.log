@@ -1,0 +1,1 @@
+[0.025s] Invoking command in '/home/laurus/workspace/gmsl/ros_ws/build/ros2_shared': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw:/opt/ros/humble /usr/bin/cmake --build /home/laurus/workspace/gmsl/ros_ws/build/ros2_shared -- -j8 -l8

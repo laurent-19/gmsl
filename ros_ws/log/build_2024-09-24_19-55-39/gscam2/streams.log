@@ -1,0 +1,60 @@
+[0.012s] Invoking command in '/home/laurus/workspace/gmsl/ros_ws/build/gscam2': CMAKE_PREFIX_PATH=/home/laurus/workspace/gmsl/ros_ws/install/ros2_shared:/home/laurus/workspace/gmsl/ros_ws/install/video_receiver:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces:/home/laurus/workspace/gmsl/ros_ws/install/gscam2:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw:/opt/ros/humble /usr/bin/cmake --build /home/laurus/workspace/gmsl/ros_ws/build/gscam2 -- -j8 -l8
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.066s] [35m[1mConsolidate compiler generated dependencies of target subscriber_node[0m
+[0.066s] [35m[1mConsolidate compiler generated dependencies of target gscam_node[0m
+[0.085s] [ 14%] Built target gtest
+[0.085s] [ 28%] Built target gtest_main
+[0.095s] [ 42%] Built target subscriber_node
+[0.097s] [ 57%] Built target gscam_node
+[0.115s] [35m[1mConsolidate compiler generated dependencies of target gscam_main[0m
+[0.115s] [35m[1mConsolidate compiler generated dependencies of target ipc_test_main[0m
+[0.117s] [35m[1mConsolidate compiler generated dependencies of target smoke_test[0m
+[0.145s] [ 71%] Built target gscam_main
+[0.145s] [ 85%] Built target smoke_test
+[0.145s] [100%] Built target ipc_test_main
+[0.158s] Invoked command in '/home/laurus/workspace/gmsl/ros_ws/build/gscam2' returned '0': CMAKE_PREFIX_PATH=/home/laurus/workspace/gmsl/ros_ws/install/ros2_shared:/home/laurus/workspace/gmsl/ros_ws/install/video_receiver:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces:/home/laurus/workspace/gmsl/ros_ws/install/gscam2:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw:/opt/ros/humble /usr/bin/cmake --build /home/laurus/workspace/gmsl/ros_ws/build/gscam2 -- -j8 -l8
+[0.208s] Invoking command in '/home/laurus/workspace/gmsl/ros_ws/build/gscam2': CMAKE_PREFIX_PATH=/home/laurus/workspace/gmsl/ros_ws/install/ros2_shared:/home/laurus/workspace/gmsl/ros_ws/install/video_receiver:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces:/home/laurus/workspace/gmsl/ros_ws/install/gscam2:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw:/opt/ros/humble /usr/bin/cmake --install /home/laurus/workspace/gmsl/ros_ws/build/gscam2
+[0.216s] -- Install configuration: ""
+[0.216s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/include/gscam2
+[0.216s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/include/gscam2/gscam_node.hpp
+[0.216s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/include/gscam2/subscriber_node.hpp
+[0.217s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/lib/libgscam_node.so
+[0.217s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/lib/libsubscriber_node.so
+[0.217s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/lib/gscam2/gscam_main
+[0.218s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/lib/gscam2/ipc_test_main
+[0.218s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/cfg
+[0.218s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/cfg/my_camera.ini
+[0.218s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/cfg/params.yaml
+[0.218s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/cfg/workaround_params.yaml
+[0.219s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/cfg/gmsl_params.yaml
+[0.219s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/launch
+[0.219s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/launch/composition_launch.py
+[0.219s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/launch/gmsl_param_launch.py
+[0.220s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/launch/gmsl_param_4launch.py
+[0.220s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/launch/republish_launch.py
+[0.220s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/launch/container_param_launch.py
+[0.220s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/launch/node_param_launch.py
+[0.220s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/environment/library_path.sh
+[0.221s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/environment/library_path.dsv
+[0.221s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/ament_index/resource_index/package_run_dependencies/gscam2
+[0.221s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/ament_index/resource_index/parent_prefix_path/gscam2
+[0.221s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/environment/ament_prefix_path.sh
+[0.221s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/environment/ament_prefix_path.dsv
+[0.221s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/environment/path.sh
+[0.222s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/environment/path.dsv
+[0.222s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/local_setup.bash
+[0.222s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/local_setup.sh
+[0.222s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/local_setup.zsh
+[0.223s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/local_setup.dsv
+[0.224s] -- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/package.dsv
+[0.224s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/ament_index/resource_index/packages/gscam2
+[0.224s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/ament_index/resource_index/rclcpp_components/gscam2
+[0.224s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/cmake/gscam2_targetsExport.cmake
+[0.224s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/cmake/gscam2_targetsExport-noconfig.cmake
+[0.225s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/cmake/ament_cmake_export_targets-extras.cmake
+[0.225s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.225s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/cmake/gscam2Config.cmake
+[0.225s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/cmake/gscam2Config-version.cmake
+[0.225s] -- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/package.xml
+[0.226s] Invoked command in '/home/laurus/workspace/gmsl/ros_ws/build/gscam2' returned '0': CMAKE_PREFIX_PATH=/home/laurus/workspace/gmsl/ros_ws/install/ros2_shared:/home/laurus/workspace/gmsl/ros_ws/install/video_receiver:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces:/home/laurus/workspace/gmsl/ros_ws/install/gscam2:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw:/opt/ros/humble /usr/bin/cmake --install /home/laurus/workspace/gmsl/ros_ws/build/gscam2

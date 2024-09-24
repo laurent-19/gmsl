@@ -1,0 +1,6 @@
+[console_scripts]
+imu_pub = imu_yaw.imu_pub:main
+imu_yaw = imu_yaw.imu_yaw:main
+yaw_mux4 = imu_yaw.yaw_mux4:main
+yaw_mux8 = imu_yaw.yaw_mux8:main
+

@@ -1,0 +1,17 @@
+/home/laurus/workspace/gmsl/ros_ws/install/video_receiver/share/video_receiver/launch/rtp_video_launch.py
+/home/laurus/workspace/gmsl/ros_ws/install/video_receiver/lib/video_receiver/video_receiver
+/home/laurus/workspace/gmsl/ros_ws/install/video_receiver/share/ament_index/resource_index/package_run_dependencies/video_receiver
+/home/laurus/workspace/gmsl/ros_ws/install/video_receiver/share/ament_index/resource_index/parent_prefix_path/video_receiver
+/home/laurus/workspace/gmsl/ros_ws/install/video_receiver/share/video_receiver/environment/ament_prefix_path.sh
+/home/laurus/workspace/gmsl/ros_ws/install/video_receiver/share/video_receiver/environment/ament_prefix_path.dsv
+/home/laurus/workspace/gmsl/ros_ws/install/video_receiver/share/video_receiver/environment/path.sh
+/home/laurus/workspace/gmsl/ros_ws/install/video_receiver/share/video_receiver/environment/path.dsv
+/home/laurus/workspace/gmsl/ros_ws/install/video_receiver/share/video_receiver/local_setup.bash
+/home/laurus/workspace/gmsl/ros_ws/install/video_receiver/share/video_receiver/local_setup.sh
+/home/laurus/workspace/gmsl/ros_ws/install/video_receiver/share/video_receiver/local_setup.zsh
+/home/laurus/workspace/gmsl/ros_ws/install/video_receiver/share/video_receiver/local_setup.dsv
+/home/laurus/workspace/gmsl/ros_ws/install/video_receiver/share/video_receiver/package.dsv
+/home/laurus/workspace/gmsl/ros_ws/install/video_receiver/share/ament_index/resource_index/packages/video_receiver
+/home/laurus/workspace/gmsl/ros_ws/install/video_receiver/share/video_receiver/cmake/video_receiverConfig.cmake
+/home/laurus/workspace/gmsl/ros_ws/install/video_receiver/share/video_receiver/cmake/video_receiverConfig-version.cmake
+/home/laurus/workspace/gmsl/ros_ws/install/video_receiver/share/video_receiver/package.xml

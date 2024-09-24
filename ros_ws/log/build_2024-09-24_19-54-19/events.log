@@ -1,0 +1,779 @@
+[0.000000] (-) TimerEvent: {}
+[0.000586] (imu_ros2) JobQueued: {'identifier': 'imu_ros2', 'dependencies': OrderedDict()}
+[0.000881] (imu_yaw) JobQueued: {'identifier': 'imu_yaw', 'dependencies': OrderedDict()}
+[0.000912] (ros2_shared) JobQueued: {'identifier': 'ros2_shared', 'dependencies': OrderedDict()}
+[0.000934] (video_receiver) JobQueued: {'identifier': 'video_receiver', 'dependencies': OrderedDict()}
+[0.000953] (gscam2) JobQueued: {'identifier': 'gscam2', 'dependencies': OrderedDict([('ros2_shared', '/home/laurus/workspace/gmsl/ros_ws/install/ros2_shared')])}
+[0.000975] (ros2_shared) JobStarted: {'identifier': 'ros2_shared'}
+[0.007383] (imu_ros2) JobStarted: {'identifier': 'imu_ros2'}
+[0.011383] (imu_yaw) JobStarted: {'identifier': 'imu_yaw'}
+[0.016782] (video_receiver) JobStarted: {'identifier': 'video_receiver'}
+[0.022087] (ros2_shared) JobProgress: {'identifier': 'ros2_shared', 'progress': 'cmake'}
+[0.023498] (ros2_shared) JobProgress: {'identifier': 'ros2_shared', 'progress': 'build'}
+[0.023845] (ros2_shared) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/laurus/workspace/gmsl/ros_ws/build/ros2_shared', '--', '-j8', '-l8'], 'cwd': '/home/laurus/workspace/gmsl/ros_ws/build/ros2_shared', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('DEVICE_ID', 'adis16500'), ('USER', 'laurus'), ('LC_TIME', 'ro_RO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces/lib:/home/laurus/workspace/gmsl/ros_ws/install/gscam2/lib:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/laurus'), ('OLDPWD', '/home/laurus/workspace/gmsl'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ro_RO.UTF-8'), ('SYSTEMD_EXEC_PID', '1953'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/laurus/workspace/gmsl/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'laurus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'laurus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/laurus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lenovo-ideapad-330s-14ikb:@/tmp/.ICE-unix/1925,unix/lenovo-ideapad-330s-14ikb:/tmp/.ICE-unix/1925'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ro_RO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/42e010a2_b800_4b4b_9c21_cedc8d8d84ed'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ro_RO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5ROXU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/laurus/workspace/gmsl/ros_ws/install/video_receiver:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces:/home/laurus/workspace/gmsl/ros_ws/install/gscam2:/home/laurus/workspace/gmsl/ros_ws/install/ros2_shared:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ro_RO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ro_RO.UTF-8'), ('LC_IDENTIFICATION', 'ro_RO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/laurus/workspace/gmsl/ros_ws/build/ros2_shared'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces/local/lib/python3.10/dist-packages:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ro_RO.UTF-8'), ('LC_PAPER', 'ro_RO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/laurus/workspace/gmsl/ros_ws/install/video_receiver:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces:/home/laurus/workspace/gmsl/ros_ws/install/gscam2:/home/laurus/workspace/gmsl/ros_ws/install/ros2_shared:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw:/opt/ros/humble')]), 'shell': False}
+[0.026663] (imu_ros2) JobProgress: {'identifier': 'imu_ros2', 'progress': 'cmake'}
+[0.027547] (imu_ros2) JobProgress: {'identifier': 'imu_ros2', 'progress': 'build'}
+[0.027876] (imu_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/laurus/workspace/gmsl/ros_ws/build/imu_ros2', '--', '-j8', '-l8'], 'cwd': '/home/laurus/workspace/gmsl/ros_ws/build/imu_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('DEVICE_ID', 'adis16500'), ('USER', 'laurus'), ('LC_TIME', 'ro_RO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces/lib:/home/laurus/workspace/gmsl/ros_ws/install/gscam2/lib:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/laurus'), ('OLDPWD', '/home/laurus/workspace/gmsl'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ro_RO.UTF-8'), ('SYSTEMD_EXEC_PID', '1953'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/laurus/workspace/gmsl/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'laurus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'laurus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/laurus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lenovo-ideapad-330s-14ikb:@/tmp/.ICE-unix/1925,unix/lenovo-ideapad-330s-14ikb:/tmp/.ICE-unix/1925'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ro_RO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/42e010a2_b800_4b4b_9c21_cedc8d8d84ed'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ro_RO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5ROXU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/laurus/workspace/gmsl/ros_ws/install/video_receiver:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces:/home/laurus/workspace/gmsl/ros_ws/install/gscam2:/home/laurus/workspace/gmsl/ros_ws/install/ros2_shared:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ro_RO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ro_RO.UTF-8'), ('LC_IDENTIFICATION', 'ro_RO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/laurus/workspace/gmsl/ros_ws/build/imu_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces/local/lib/python3.10/dist-packages:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ro_RO.UTF-8'), ('LC_PAPER', 'ro_RO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/laurus/workspace/gmsl/ros_ws/install/video_receiver:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces:/home/laurus/workspace/gmsl/ros_ws/install/gscam2:/home/laurus/workspace/gmsl/ros_ws/install/ros2_shared:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw:/opt/ros/humble')]), 'shell': False}
+[0.099999] (-) TimerEvent: {}
+[0.200687] (-) TimerEvent: {}
+[0.301051] (-) TimerEvent: {}
+[0.391356] (imu_ros2) StdoutLine: {'line': b'[  1%] Built target imu_ros2__cpp\n'}
+[0.392287] (imu_ros2) StdoutLine: {'line': b'[  3%] Built target gtest_main\n'}
+[0.392879] (imu_ros2) StdoutLine: {'line': b'[ 10%] Built target imu_ros2__rosidl_generator_c\n'}
+[0.393010] (imu_ros2) StdoutLine: {'line': b'[ 12%] Built target gtest\n'}
+[0.393129] (imu_ros2) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_imu_ros2\n'}
+[0.393245] (imu_ros2) StdoutLine: {'line': b'[ 20%] Built target imu_ros2__rosidl_typesupport_cpp\n'}
+[0.393360] (imu_ros2) StdoutLine: {'line': b'[ 27%] Built target imu_ros2__rosidl_typesupport_introspection_cpp\n'}
+[0.393471] (imu_ros2) StdoutLine: {'line': b'[ 35%] Built target imu_ros2__rosidl_typesupport_introspection_c\n'}
+[0.393847] (imu_ros2) StdoutLine: {'line': b'[ 42%] Built target imu_ros2__rosidl_typesupport_c\n'}
+[0.393924] (imu_ros2) StdoutLine: {'line': b'[ 54%] Built target imu_ros2__rosidl_typesupport_fastrtps_c\n'}
+[0.393995] (imu_ros2) StdoutLine: {'line': b'[ 57%] Built target imu_ros2__rosidl_typesupport_fastrtps_cpp\n'}
+[0.394067] (imu_ros2) StdoutLine: {'line': b'[ 57%] Built target imu_ros2\n'}
+[0.394138] (imu_ros2) StdoutLine: {'line': b'[ 58%] Built target imu_ros2__py\n'}
+[0.394209] (imu_ros2) StdoutLine: {'line': b'[ 68%] Built target imu_ros2_test_node\n'}
+[0.394280] (imu_ros2) StdoutLine: {'line': b'[ 87%] Built target imu_ros2_node\n'}
+[0.394350] (imu_ros2) StdoutLine: {'line': b'[ 93%] Built target imu_ros2__rosidl_generator_py\n'}
+[0.394429] (imu_ros2) StdoutLine: {'line': b'[ 95%] Built target imu_ros2__rosidl_typesupport_introspection_c__pyext\n'}
+[0.395265] (imu_ros2) StdoutLine: {'line': b'[ 97%] Built target imu_ros2__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.395340] (imu_ros2) StdoutLine: {'line': b'[100%] Built target imu_ros2__rosidl_typesupport_c__pyext\n'}
+[0.395412] (ros2_shared) CommandEnded: {'returncode': 0}
+[0.397120] (video_receiver) JobProgress: {'identifier': 'video_receiver', 'progress': 'cmake'}
+[0.397581] (video_receiver) Command: {'cmd': ['/usr/bin/cmake', '/home/laurus/workspace/gmsl/ros_ws/src/video_receiver', '-DCMAKE_INSTALL_PREFIX=/home/laurus/workspace/gmsl/ros_ws/install/video_receiver'], 'cwd': '/home/laurus/workspace/gmsl/ros_ws/build/video_receiver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('DEVICE_ID', 'adis16500'), ('USER', 'laurus'), ('LC_TIME', 'ro_RO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces/lib:/home/laurus/workspace/gmsl/ros_ws/install/gscam2/lib:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/laurus'), ('OLDPWD', '/home/laurus/workspace/gmsl'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ro_RO.UTF-8'), ('SYSTEMD_EXEC_PID', '1953'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/laurus/workspace/gmsl/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'laurus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'laurus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/laurus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lenovo-ideapad-330s-14ikb:@/tmp/.ICE-unix/1925,unix/lenovo-ideapad-330s-14ikb:/tmp/.ICE-unix/1925'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ro_RO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/42e010a2_b800_4b4b_9c21_cedc8d8d84ed'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ro_RO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5ROXU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/laurus/workspace/gmsl/ros_ws/install/video_receiver:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces:/home/laurus/workspace/gmsl/ros_ws/install/gscam2:/home/laurus/workspace/gmsl/ros_ws/install/ros2_shared:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ro_RO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ro_RO.UTF-8'), ('LC_IDENTIFICATION', 'ro_RO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/laurus/workspace/gmsl/ros_ws/build/video_receiver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces/local/lib/python3.10/dist-packages:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ro_RO.UTF-8'), ('LC_PAPER', 'ro_RO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/laurus/workspace/gmsl/ros_ws/install/video_receiver:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces:/home/laurus/workspace/gmsl/ros_ws/install/gscam2:/home/laurus/workspace/gmsl/ros_ws/install/ros2_shared:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw:/opt/ros/humble')]), 'shell': False}
+[0.401071] (-) TimerEvent: {}
+[0.424408] (ros2_shared) JobProgress: {'identifier': 'ros2_shared', 'progress': 'install'}
+[0.436380] (ros2_shared) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/laurus/workspace/gmsl/ros_ws/build/ros2_shared'], 'cwd': '/home/laurus/workspace/gmsl/ros_ws/build/ros2_shared', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('DEVICE_ID', 'adis16500'), ('USER', 'laurus'), ('LC_TIME', 'ro_RO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces/lib:/home/laurus/workspace/gmsl/ros_ws/install/gscam2/lib:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/laurus'), ('OLDPWD', '/home/laurus/workspace/gmsl'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ro_RO.UTF-8'), ('SYSTEMD_EXEC_PID', '1953'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/laurus/workspace/gmsl/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'laurus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'laurus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/laurus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lenovo-ideapad-330s-14ikb:@/tmp/.ICE-unix/1925,unix/lenovo-ideapad-330s-14ikb:/tmp/.ICE-unix/1925'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ro_RO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/42e010a2_b800_4b4b_9c21_cedc8d8d84ed'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ro_RO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5ROXU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/laurus/workspace/gmsl/ros_ws/install/video_receiver:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces:/home/laurus/workspace/gmsl/ros_ws/install/gscam2:/home/laurus/workspace/gmsl/ros_ws/install/ros2_shared:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ro_RO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ro_RO.UTF-8'), ('LC_IDENTIFICATION', 'ro_RO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/laurus/workspace/gmsl/ros_ws/build/ros2_shared'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces/local/lib/python3.10/dist-packages:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ro_RO.UTF-8'), ('LC_PAPER', 'ro_RO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/laurus/workspace/gmsl/ros_ws/install/video_receiver:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces:/home/laurus/workspace/gmsl/ros_ws/install/gscam2:/home/laurus/workspace/gmsl/ros_ws/install/ros2_shared:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw:/opt/ros/humble')]), 'shell': False}
+[0.445962] (ros2_shared) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.446298] (ros2_shared) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/ros2_shared/include\n'}
+[0.446457] (ros2_shared) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/ros2_shared/include/ros2_shared\n'}
+[0.446679] (ros2_shared) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/ros2_shared/include/ros2_shared/string_printf.hpp\n'}
+[0.446816] (ros2_shared) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/ros2_shared/include/ros2_shared/context_macros.hpp\n'}
+[0.446942] (ros2_shared) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/ros2_shared/include/ros2_shared/param_macros.hpp\n'}
+[0.447128] (ros2_shared) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/ros2_shared/share/ament_index/resource_index/package_run_dependencies/ros2_shared\n'}
+[0.447305] (ros2_shared) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/ros2_shared/share/ament_index/resource_index/parent_prefix_path/ros2_shared\n'}
+[0.447508] (ros2_shared) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.sh\n'}
+[0.447691] (ros2_shared) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.dsv\n'}
+[0.447880] (ros2_shared) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/ros2_shared/share/ros2_shared/environment/path.sh\n'}
+[0.448060] (ros2_shared) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/ros2_shared/share/ros2_shared/environment/path.dsv\n'}
+[0.448270] (ros2_shared) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/ros2_shared/share/ros2_shared/local_setup.bash\n'}
+[0.448478] (ros2_shared) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/ros2_shared/share/ros2_shared/local_setup.sh\n'}
+[0.448670] (ros2_shared) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/ros2_shared/share/ros2_shared/local_setup.zsh\n'}
+[0.448870] (ros2_shared) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/ros2_shared/share/ros2_shared/local_setup.dsv\n'}
+[0.449060] (ros2_shared) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/ros2_shared/share/ros2_shared/package.dsv\n'}
+[0.449315] (ros2_shared) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/ros2_shared/share/ament_index/resource_index/packages/ros2_shared\n'}
+[0.449610] (ros2_shared) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_shared_targetsExport.cmake\n'}
+[0.449805] (ros2_shared) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/ros2_shared/share/ros2_shared/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.449976] (ros2_shared) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/ros2_shared/share/ros2_shared/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.450159] (ros2_shared) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig.cmake\n'}
+[0.450364] (ros2_shared) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig-version.cmake\n'}
+[0.450555] (ros2_shared) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/ros2_shared/share/ros2_shared/package.xml\n'}
+[0.452687] (ros2_shared) CommandEnded: {'returncode': 0}
+[0.466140] (imu_ros2) StdoutLine: {'line': b'running egg_info\n'}
+[0.467577] (imu_ros2) StdoutLine: {'line': b'writing imu_ros2.egg-info/PKG-INFO\n'}
+[0.467887] (imu_ros2) StdoutLine: {'line': b'writing dependency_links to imu_ros2.egg-info/dependency_links.txt\n'}
+[0.467972] (imu_ros2) StdoutLine: {'line': b'writing top-level names to imu_ros2.egg-info/top_level.txt\n'}
+[0.471691] (imu_ros2) StdoutLine: {'line': b"reading manifest file 'imu_ros2.egg-info/SOURCES.txt'\n"}
+[0.472812] (imu_ros2) StdoutLine: {'line': b"writing manifest file 'imu_ros2.egg-info/SOURCES.txt'\n"}
+[0.477131] (video_receiver) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.501300] (-) TimerEvent: {}
+[0.509882] (ros2_shared) JobEnded: {'identifier': 'ros2_shared', 'rc': 0}
+[0.511691] (gscam2) JobStarted: {'identifier': 'gscam2'}
+[0.511816] (imu_ros2) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_imu_ros2_egg\n'}
+[0.519804] (gscam2) JobProgress: {'identifier': 'gscam2', 'progress': 'cmake'}
+[0.520320] (gscam2) Command: {'cmd': ['/usr/bin/cmake', '/home/laurus/workspace/gmsl/ros_ws/src/gscam2', '-DCMAKE_INSTALL_PREFIX=/home/laurus/workspace/gmsl/ros_ws/install/gscam2'], 'cwd': '/home/laurus/workspace/gmsl/ros_ws/build/gscam2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('DEVICE_ID', 'adis16500'), ('USER', 'laurus'), ('LC_TIME', 'ro_RO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces/lib:/home/laurus/workspace/gmsl/ros_ws/install/gscam2/lib:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/laurus'), ('OLDPWD', '/home/laurus/workspace/gmsl'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ro_RO.UTF-8'), ('SYSTEMD_EXEC_PID', '1953'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/laurus/workspace/gmsl/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'laurus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'laurus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/laurus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lenovo-ideapad-330s-14ikb:@/tmp/.ICE-unix/1925,unix/lenovo-ideapad-330s-14ikb:/tmp/.ICE-unix/1925'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ro_RO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/42e010a2_b800_4b4b_9c21_cedc8d8d84ed'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ro_RO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5ROXU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/laurus/workspace/gmsl/ros_ws/install/video_receiver:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces:/home/laurus/workspace/gmsl/ros_ws/install/gscam2:/home/laurus/workspace/gmsl/ros_ws/install/ros2_shared:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ro_RO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ro_RO.UTF-8'), ('LC_IDENTIFICATION', 'ro_RO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/laurus/workspace/gmsl/ros_ws/build/gscam2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces/local/lib/python3.10/dist-packages:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ro_RO.UTF-8'), ('LC_PAPER', 'ro_RO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/laurus/workspace/gmsl/ros_ws/install/ros2_shared:/home/laurus/workspace/gmsl/ros_ws/install/video_receiver:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces:/home/laurus/workspace/gmsl/ros_ws/install/gscam2:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw:/opt/ros/humble')]), 'shell': False}
+[0.527739] (imu_ros2) CommandEnded: {'returncode': 0}
+[0.555843] (video_receiver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.564144] (video_receiver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.593517] (gscam2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.601385] (-) TimerEvent: {}
+[0.654080] (video_receiver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.666363] (video_receiver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.666665] (video_receiver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.667189] (video_receiver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.671567] (video_receiver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.678645] (gscam2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.691023] (gscam2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.701476] (-) TimerEvent: {}
+[0.762238] (imu_ros2) JobProgress: {'identifier': 'imu_ros2', 'progress': 'install'}
+[0.763014] (imu_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/laurus/workspace/gmsl/ros_ws/build/imu_ros2'], 'cwd': '/home/laurus/workspace/gmsl/ros_ws/build/imu_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('DEVICE_ID', 'adis16500'), ('USER', 'laurus'), ('LC_TIME', 'ro_RO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces/lib:/home/laurus/workspace/gmsl/ros_ws/install/gscam2/lib:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/laurus'), ('OLDPWD', '/home/laurus/workspace/gmsl'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ro_RO.UTF-8'), ('SYSTEMD_EXEC_PID', '1953'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/laurus/workspace/gmsl/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'laurus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'laurus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/laurus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lenovo-ideapad-330s-14ikb:@/tmp/.ICE-unix/1925,unix/lenovo-ideapad-330s-14ikb:/tmp/.ICE-unix/1925'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ro_RO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/42e010a2_b800_4b4b_9c21_cedc8d8d84ed'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ro_RO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5ROXU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/laurus/workspace/gmsl/ros_ws/install/video_receiver:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces:/home/laurus/workspace/gmsl/ros_ws/install/gscam2:/home/laurus/workspace/gmsl/ros_ws/install/ros2_shared:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ro_RO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ro_RO.UTF-8'), ('LC_IDENTIFICATION', 'ro_RO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/laurus/workspace/gmsl/ros_ws/build/imu_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces/local/lib/python3.10/dist-packages:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ro_RO.UTF-8'), ('LC_PAPER', 'ro_RO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/laurus/workspace/gmsl/ros_ws/install/video_receiver:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces:/home/laurus/workspace/gmsl/ros_ws/install/gscam2:/home/laurus/workspace/gmsl/ros_ws/install/ros2_shared:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw:/opt/ros/humble')]), 'shell': False}
+[0.777267] (imu_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.777583] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/launch\n'}
+[0.777830] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/launch/imu_tof_fusion.launch.py\n'}
+[0.778043] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/launch/gmsl_imu_4launch.py\n'}
+[0.778292] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/launch/imu_with_madgwick_filter_rviz.launch.py\n'}
+[0.778459] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/launch/gmsl_imu_8launch_rtp.py\n'}
+[0.778696] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/launch/gmsl_imu_8launch.py\n'}
+[0.778892] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/rviz\n'}
+[0.779021] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/rviz/imu_with_gmsl4.rviz\n'}
+[0.779190] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/rviz/imu_tof_fusion.rviz\n'}
+[0.779366] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/rviz/imu_with_madgwick_filter_rviz.rviz\n'}
+[0.779587] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/rviz/imu_with_gmsl8.rviz\n'}
+[0.779742] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/lib/imu_ros2/imu_ros2_node\n'}
+[0.779935] (video_receiver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.781296] (gscam2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.783229] (imu_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/lib/imu_ros2/imu_ros2_node" to ""\n'}
+[0.783450] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/ament_index/resource_index/rosidl_interfaces/imu_ros2\n'}
+[0.783696] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2\n'}
+[0.783881] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg\n'}
+[0.784045] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/imu_identification_data.h\n'}
+[0.784209] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/imu_full_measured_data.h\n'}
+[0.784356] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.784513] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/imu_diag_data.h\n'}
+[0.784661] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/vel_ang_temp_data.h\n'}
+[0.784815] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/accel_gyro_temp_data.h\n'}
+[0.784951] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail\n'}
+[0.785105] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_diag_data__functions.h\n'}
+[0.785273] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_identification_data__functions.h\n'}
+[0.785462] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_diag_data__functions.c\n'}
+[0.785651] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/accel_gyro_temp_data__functions.h\n'}
+[0.785831] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_full_measured_data__struct.h\n'}
+[0.786057] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_full_measured_data__functions.h\n'}
+[0.786710] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/accel_gyro_temp_data__struct.h\n'}
+[0.786976] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/vel_ang_temp_data__type_support.h\n'}
+[0.787103] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_identification_data__type_support.h\n'}
+[0.787245] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_diag_data__struct.h\n'}
+[0.787368] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_full_measured_data__functions.c\n'}
+[0.787648] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/vel_ang_temp_data__functions.h\n'}
+[0.787783] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_full_measured_data__type_support.h\n'}
+[0.787909] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_diag_data__type_support.h\n'}
+[0.788075] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_identification_data__struct.h\n'}
+[0.788243] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/vel_ang_temp_data__functions.c\n'}
+[0.788364] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/vel_ang_temp_data__struct.h\n'}
+[0.788523] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/accel_gyro_temp_data__type_support.h\n'}
+[0.788598] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_identification_data__functions.c\n'}
+[0.788694] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/accel_gyro_temp_data__functions.c\n'}
+[0.788975] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/environment/library_path.sh\n'}
+[0.789229] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/environment/library_path.dsv\n'}
+[0.789497] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/lib/libimu_ros2__rosidl_generator_c.so\n'}
+[0.790204] (imu_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/lib/libimu_ros2__rosidl_generator_c.so" to ""\n'}
+[0.790466] (imu_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2\n'}
+[0.790676] (imu_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg\n'}
+[0.790752] (imu_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail\n'}
+[0.790875] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/accel_gyro_temp_data__rosidl_typesupport_fastrtps_c.h\n'}
+[0.791052] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/vel_ang_temp_data__rosidl_typesupport_fastrtps_c.h\n'}
+[0.791270] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_full_measured_data__rosidl_typesupport_fastrtps_c.h\n'}
+[0.791451] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_diag_data__rosidl_typesupport_fastrtps_c.h\n'}
+[0.791669] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_identification_data__rosidl_typesupport_fastrtps_c.h\n'}
+[0.791796] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.791973] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/lib/libimu_ros2__rosidl_typesupport_fastrtps_c.so\n'}
+[0.792673] (imu_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/lib/libimu_ros2__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[0.792842] (imu_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2\n'}
+[0.792996] (imu_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg\n'}
+[0.793110] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/imu_identification_data.hpp\n'}
+[0.793255] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/vel_ang_temp_data.hpp\n'}
+[0.793395] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/accel_gyro_temp_data.hpp\n'}
+[0.793518] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/imu_diag_data.hpp\n'}
+[0.793652] (imu_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail\n'}
+[0.793758] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_full_measured_data__builder.hpp\n'}
+[0.793902] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_diag_data__builder.hpp\n'}
+[0.794043] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_full_measured_data__struct.hpp\n'}
+[0.794182] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/accel_gyro_temp_data__builder.hpp\n'}
+[0.794347] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_identification_data__struct.hpp\n'}
+[0.794872] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/accel_gyro_temp_data__struct.hpp\n'}
+[0.795078] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/vel_ang_temp_data__builder.hpp\n'}
+[0.795303] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_full_measured_data__traits.hpp\n'}
+[0.795569] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_diag_data__struct.hpp\n'}
+[0.795776] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_diag_data__traits.hpp\n'}
+[0.795895] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/vel_ang_temp_data__struct.hpp\n'}
+[0.796057] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/vel_ang_temp_data__traits.hpp\n'}
+[0.796205] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/accel_gyro_temp_data__traits.hpp\n'}
+[0.796438] (video_receiver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.796624] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_identification_data__builder.hpp\n'}
+[0.796762] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_identification_data__traits.hpp\n'}
+[0.796969] (video_receiver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.797116] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/imu_full_measured_data.hpp\n'}
+[0.797300] (imu_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2\n'}
+[0.797491] (imu_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg\n'}
+[0.797646] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.797765] (imu_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail\n'}
+[0.797880] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/accel_gyro_temp_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.797998] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_full_measured_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.798217] (video_receiver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.798370] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_identification_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.798500] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/dds_fastrtps\n'}
+[0.798577] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/vel_ang_temp_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.798652] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_diag_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.798766] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/lib/libimu_ros2__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.799376] (imu_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/lib/libimu_ros2__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[0.799505] (imu_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2\n'}
+[0.799607] (imu_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg\n'}
+[0.799709] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.799858] (imu_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail\n'}
+[0.799970] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/vel_ang_temp_data__type_support.c\n'}
+[0.800099] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_full_measured_data__rosidl_typesupport_introspection_c.h\n'}
+[0.800264] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_diag_data__rosidl_typesupport_introspection_c.h\n'}
+[0.800415] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_identification_data__type_support.c\n'}
+[0.800589] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/accel_gyro_temp_data__type_support.c\n'}
+[0.800780] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_diag_data__type_support.c\n'}
+[0.800976] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/vel_ang_temp_data__rosidl_typesupport_introspection_c.h\n'}
+[0.801157] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_identification_data__rosidl_typesupport_introspection_c.h\n'}
+[0.801346] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_full_measured_data__type_support.c\n'}
+[0.801469] (-) TimerEvent: {}
+[0.801701] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/accel_gyro_temp_data__rosidl_typesupport_introspection_c.h\n'}
+[0.801891] (video_receiver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.802034] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/lib/libimu_ros2__rosidl_typesupport_introspection_c.so\n'}
+[0.802552] (imu_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/lib/libimu_ros2__rosidl_typesupport_introspection_c.so" to ""\n'}
+[0.802802] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/lib/libimu_ros2__rosidl_typesupport_c.so\n'}
+[0.803290] (imu_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/lib/libimu_ros2__rosidl_typesupport_c.so" to ""\n'}
+[0.803532] (imu_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2\n'}
+[0.803722] (imu_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg\n'}
+[0.803816] (imu_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail\n'}
+[0.803893] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/vel_ang_temp_data__type_support.cpp\n'}
+[0.804010] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_full_measured_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.804123] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/accel_gyro_temp_data__type_support.cpp\n'}
+[0.804248] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/vel_ang_temp_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.804379] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_diag_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.804596] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_identification_data__type_support.cpp\n'}
+[0.804787] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_identification_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.804985] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/accel_gyro_temp_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.805176] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_diag_data__type_support.cpp\n'}
+[0.805388] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/include/imu_ros2/imu_ros2/msg/detail/imu_full_measured_data__type_support.cpp\n'}
+[0.805772] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/lib/libimu_ros2__rosidl_typesupport_introspection_cpp.so\n'}
+[0.806034] (gscam2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.806475] (imu_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/lib/libimu_ros2__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[0.806641] (gscam2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.806876] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/lib/libimu_ros2__rosidl_typesupport_cpp.so\n'}
+[0.807595] (imu_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/lib/libimu_ros2__rosidl_typesupport_cpp.so" to ""\n'}
+[0.807847] (gscam2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.808043] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/environment/pythonpath.sh\n'}
+[0.808187] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/environment/pythonpath.dsv\n'}
+[0.808353] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2-0.0.1-py3.10.egg-info\n'}
+[0.808518] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[0.808662] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[0.808836] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[0.808995] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[0.809237] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2\n'}
+[0.809399] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2/_imu_ros2_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.809853] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2/imu_ros2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.810047] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2/_imu_ros2_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.810236] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2/imu_ros2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.810462] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2/imu_ros2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.810729] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2/__init__.py\n'}
+[0.810954] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2/msg\n'}
+[0.811121] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2/msg/_imu_diag_data.py\n'}
+[0.811291] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2/msg/_imu_identification_data_s.c\n'}
+[0.811468] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2/msg/_imu_full_measured_data_s.c\n'}
+[0.811637] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2/msg/_vel_ang_temp_data_s.c\n'}
+[0.811797] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2/msg/_imu_identification_data.py\n'}
+[0.811966] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2/msg/_imu_diag_data_s.c\n'}
+[0.812145] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2/msg/__init__.py\n'}
+[0.812362] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2/msg/_imu_full_measured_data.py\n'}
+[0.812581] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2/msg/_vel_ang_temp_data.py\n'}
+[0.812774] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2/msg/_accel_gyro_temp_data.py\n'}
+[0.812957] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2/msg/_accel_gyro_temp_data_s.c\n'}
+[0.813140] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2/_imu_ros2_s.ep.rosidl_typesupport_c.c\n'}
+[0.813294] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2/libimu_ros2__rosidl_generator_py.so\n'}
+[0.814552] (gscam2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.885994] (imu_ros2) StdoutLine: {'line': b"Listing '/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2'...\n"}
+[0.886259] (imu_ros2) StdoutLine: {'line': b"Compiling '/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2/__init__.py'...\n"}
+[0.886404] (imu_ros2) StdoutLine: {'line': b"Listing '/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2/msg'...\n"}
+[0.886576] (imu_ros2) StdoutLine: {'line': b"Compiling '/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2/msg/__init__.py'...\n"}
+[0.886699] (imu_ros2) StdoutLine: {'line': b"Compiling '/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2/msg/_accel_gyro_temp_data.py'...\n"}
+[0.886813] (imu_ros2) StdoutLine: {'line': b"Compiling '/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2/msg/_imu_diag_data.py'...\n"}
+[0.886927] (imu_ros2) StdoutLine: {'line': b"Compiling '/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2/msg/_imu_full_measured_data.py'...\n"}
+[0.887041] (imu_ros2) StdoutLine: {'line': b"Compiling '/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2/msg/_imu_identification_data.py'...\n"}
+[0.887155] (imu_ros2) StdoutLine: {'line': b"Compiling '/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2/msg/_vel_ang_temp_data.py'...\n"}
+[0.895630] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2/imu_ros2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.896220] (imu_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2/imu_ros2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[0.896593] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2/imu_ros2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.897236] (imu_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2/imu_ros2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[0.897610] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2/imu_ros2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.898221] (imu_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages/imu_ros2/imu_ros2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[0.898448] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/lib/libimu_ros2__rosidl_generator_py.so\n'}
+[0.899135] (imu_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/lib/libimu_ros2__rosidl_generator_py.so" to ""\n'}
+[0.899347] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/msg/ImuIdentificationData.idl\n'}
+[0.899571] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/msg/VelAngTempData.idl\n'}
+[0.899800] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/msg/ImuFullMeasuredData.idl\n'}
+[0.900010] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/msg/AccelGyroTempData.idl\n'}
+[0.900231] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/msg/ImuDiagData.idl\n'}
+[0.900447] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/msg/ImuIdentificationData.msg\n'}
+[0.900665] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/msg/VelAngTempData.msg\n'}
+[0.900872] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/msg/ImuFullMeasuredData.msg\n'}
+[0.901081] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/msg/AccelGyroTempData.msg\n'}
+[0.901363] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/adis1650x/ImuDiagData.msg\n'}
+[0.901507] (-) TimerEvent: {}
+[0.901725] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/config/imu_config.yaml\n'}
+[0.901922] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/ament_index/resource_index/package_run_dependencies/imu_ros2\n'}
+[0.902476] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/ament_index/resource_index/parent_prefix_path/imu_ros2\n'}
+[0.902720] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/environment/ament_prefix_path.sh\n'}
+[0.902973] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/environment/ament_prefix_path.dsv\n'}
+[0.903181] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/environment/path.sh\n'}
+[0.903376] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/environment/path.dsv\n'}
+[0.903615] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/local_setup.bash\n'}
+[0.903772] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/local_setup.sh\n'}
+[0.903935] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/local_setup.zsh\n'}
+[0.904116] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/local_setup.dsv\n'}
+[0.904281] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/package.dsv\n'}
+[0.904550] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/ament_index/resource_index/packages/imu_ros2\n'}
+[0.906608] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/cmake/export_imu_ros2__rosidl_generator_cExport.cmake\n'}
+[0.907215] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/cmake/export_imu_ros2__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.907356] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/cmake/export_imu_ros2__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.907493] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/cmake/export_imu_ros2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.907616] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/cmake/export_imu_ros2__rosidl_generator_cppExport.cmake\n'}
+[0.907727] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/cmake/export_imu_ros2__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.907846] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/cmake/export_imu_ros2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.908880] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/cmake/imu_ros2__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.909635] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/cmake/imu_ros2__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.911578] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/cmake/imu_ros2__rosidl_typesupport_cExport.cmake\n'}
+[0.912262] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/cmake/imu_ros2__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.912430] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/cmake/imu_ros2__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.912782] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/cmake/imu_ros2__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.912923] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/cmake/imu_ros2__rosidl_typesupport_cppExport.cmake\n'}
+[0.913034] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/cmake/imu_ros2__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.913148] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/cmake/export_imu_ros2__rosidl_generator_pyExport.cmake\n'}
+[0.913259] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/cmake/export_imu_ros2__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.913371] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/cmake/rosidl_cmake-extras.cmake\n'}
+[0.913505] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.913618] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.913730] (imu_yaw) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/imu_yaw', 'build', '--build-base', '/home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build', 'install', '--record', '/home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/laurus/workspace/gmsl/ros_ws/src/imu_yaw', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'DEVICE_ID': 'adis16500', 'USER': 'laurus', 'LC_TIME': 'ro_RO.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces/lib:/home/laurus/workspace/gmsl/ros_ws/install/gscam2/lib:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/laurus', 'OLDPWD': '/home/laurus/workspace/gmsl', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ro_RO.UTF-8', 'SYSTEMD_EXEC_PID': '1953', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/laurus/workspace/gmsl/ros_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'laurus', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'laurus', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/laurus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/lenovo-ideapad-330s-14ikb:@/tmp/.ICE-unix/1925,unix/lenovo-ideapad-330s-14ikb:/tmp/.ICE-unix/1925', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ro_RO.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/42e010a2_b800_4b4b_9c21_cedc8d8d84ed', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ro_RO.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.5ROXU2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/laurus/workspace/gmsl/ros_ws/install/video_receiver:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces:/home/laurus/workspace/gmsl/ros_ws/install/gscam2:/home/laurus/workspace/gmsl/ros_ws/install/ros2_shared:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ro_RO.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ro_RO.UTF-8', 'LC_IDENTIFICATION': 'ro_RO.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/laurus/workspace/gmsl/ros_ws/build/imu_yaw', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/prefix_override:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces/local/lib/python3.10/dist-packages:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ro_RO.UTF-8', 'LC_PAPER': 'ro_RO.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/laurus/workspace/gmsl/ros_ws/install/video_receiver:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces:/home/laurus/workspace/gmsl/ros_ws/install/gscam2:/home/laurus/workspace/gmsl/ros_ws/install/ros2_shared:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2'}, 'shell': False}
+[0.914762] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.914943] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.915067] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.915180] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.915292] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/cmake/imu_ros2Config.cmake\n'}
+[0.915402] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/cmake/imu_ros2Config-version.cmake\n'}
+[0.915532] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/share/imu_ros2/package.xml\n'}
+[0.915643] (imu_ros2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/lib/imu_ros2_test/imu_ros2_test_node\n'}
+[0.923294] (gscam2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.928726] (imu_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/lib/imu_ros2_test/imu_ros2_test_node" to ""\n'}
+[0.931786] (imu_ros2) CommandEnded: {'returncode': 0}
+[0.941093] (gscam2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.941807] (gscam2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.944237] (gscam2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.949157] (gscam2) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[0.949939] (gscam2) StdoutLine: {'line': b"-- Checking for module 'gstreamer-1.0'\n"}
+[0.966894] (gscam2) StdoutLine: {'line': b'--   Found gstreamer-1.0, version 1.20.3\n'}
+[1.001638] (-) TimerEvent: {}
+[1.023950] (gscam2) StdoutLine: {'line': b"-- Checking for module 'gstreamer-app-1.0'\n"}
+[1.039992] (gscam2) StdoutLine: {'line': b'--   Found gstreamer-app-1.0, version 1.20.1\n'}
+[1.045645] (video_receiver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.089112] (gscam2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.101733] (-) TimerEvent: {}
+[1.162356] (video_receiver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.194117] (imu_ros2) JobEnded: {'identifier': 'imu_ros2', 'rc': 0}
+[1.201835] (-) TimerEvent: {}
+[1.213200] (video_receiver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.218719] (video_receiver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.229581] (video_receiver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.245376] (imu_yaw) StdoutLine: {'line': b'running egg_info\n'}
+[1.246334] (video_receiver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.246504] (imu_yaw) StdoutLine: {'line': b'creating ../../build/imu_yaw/imu_yaw.egg-info\n'}
+[1.246756] (imu_yaw) StdoutLine: {'line': b'writing ../../build/imu_yaw/imu_yaw.egg-info/PKG-INFO\n'}
+[1.247067] (imu_yaw) StdoutLine: {'line': b'writing dependency_links to ../../build/imu_yaw/imu_yaw.egg-info/dependency_links.txt\n'}
+[1.247275] (imu_yaw) StdoutLine: {'line': b'writing entry points to ../../build/imu_yaw/imu_yaw.egg-info/entry_points.txt\n'}
+[1.247437] (imu_yaw) StdoutLine: {'line': b'writing requirements to ../../build/imu_yaw/imu_yaw.egg-info/requires.txt\n'}
+[1.247546] (imu_yaw) StdoutLine: {'line': b'writing top-level names to ../../build/imu_yaw/imu_yaw.egg-info/top_level.txt\n'}
+[1.247828] (imu_yaw) StdoutLine: {'line': b"writing manifest file '../../build/imu_yaw/imu_yaw.egg-info/SOURCES.txt'\n"}
+[1.250522] (imu_yaw) StdoutLine: {'line': b"reading manifest file '../../build/imu_yaw/imu_yaw.egg-info/SOURCES.txt'\n"}
+[1.250746] (imu_yaw) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.251710] (imu_yaw) StdoutLine: {'line': b"writing manifest file '../../build/imu_yaw/imu_yaw.egg-info/SOURCES.txt'\n"}
+[1.251899] (imu_yaw) StdoutLine: {'line': b'running build\n'}
+[1.251968] (imu_yaw) StdoutLine: {'line': b'running build_py\n'}
+[1.252075] (imu_yaw) StdoutLine: {'line': b'creating /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build\n'}
+[1.252164] (imu_yaw) StdoutLine: {'line': b'creating /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build/lib\n'}
+[1.252276] (imu_yaw) StdoutLine: {'line': b'creating /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build/lib/imu_yaw\n'}
+[1.252442] (imu_yaw) StdoutLine: {'line': b'copying imu_yaw/yaw_mux4.py -> /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build/lib/imu_yaw\n'}
+[1.252521] (imu_yaw) StdoutLine: {'line': b'copying imu_yaw/yaw_mux8.py -> /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build/lib/imu_yaw\n'}
+[1.252626] (imu_yaw) StdoutLine: {'line': b'copying imu_yaw/__init__.py -> /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build/lib/imu_yaw\n'}
+[1.252773] (imu_yaw) StdoutLine: {'line': b'copying imu_yaw/imu_pub.py -> /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build/lib/imu_yaw\n'}
+[1.252898] (imu_yaw) StdoutLine: {'line': b'copying imu_yaw/imu_yaw.py -> /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build/lib/imu_yaw\n'}
+[1.253297] (imu_yaw) StdoutLine: {'line': b'running install\n'}
+[1.253933] (imu_yaw) StdoutLine: {'line': b'running install_lib\n'}
+[1.255331] (imu_yaw) StdoutLine: {'line': b'creating /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages/imu_yaw\n'}
+[1.255574] (imu_yaw) StdoutLine: {'line': b'copying /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build/lib/imu_yaw/yaw_mux4.py -> /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages/imu_yaw\n'}
+[1.255756] (imu_yaw) StdoutLine: {'line': b'copying /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build/lib/imu_yaw/yaw_mux8.py -> /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages/imu_yaw\n'}
+[1.255957] (imu_yaw) StdoutLine: {'line': b'copying /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build/lib/imu_yaw/__init__.py -> /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages/imu_yaw\n'}
+[1.256174] (imu_yaw) StdoutLine: {'line': b'copying /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build/lib/imu_yaw/imu_pub.py -> /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages/imu_yaw\n'}
+[1.256313] (imu_yaw) StdoutLine: {'line': b'copying /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build/lib/imu_yaw/imu_yaw.py -> /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages/imu_yaw\n'}
+[1.256951] (imu_yaw) StdoutLine: {'line': b'byte-compiling /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages/imu_yaw/yaw_mux4.py to yaw_mux4.cpython-310.pyc\n'}
+[1.258302] (imu_yaw) StdoutLine: {'line': b'byte-compiling /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages/imu_yaw/yaw_mux8.py to yaw_mux8.cpython-310.pyc\n'}
+[1.259429] (imu_yaw) StdoutLine: {'line': b'byte-compiling /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages/imu_yaw/__init__.py to __init__.cpython-310.pyc\n'}
+[1.259645] (imu_yaw) StdoutLine: {'line': b'byte-compiling /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages/imu_yaw/imu_pub.py to imu_pub.cpython-310.pyc\n'}
+[1.260280] (imu_yaw) StdoutLine: {'line': b'byte-compiling /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages/imu_yaw/imu_yaw.py to imu_yaw.cpython-310.pyc\n'}
+[1.261030] (imu_yaw) StdoutLine: {'line': b'running install_data\n'}
+[1.261361] (imu_yaw) StdoutLine: {'line': b'creating /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/share/ament_index\n'}
+[1.261479] (imu_yaw) StdoutLine: {'line': b'creating /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/share/ament_index/resource_index\n'}
+[1.261565] (imu_yaw) StdoutLine: {'line': b'creating /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/share/ament_index/resource_index/packages\n'}
+[1.261636] (imu_yaw) StdoutLine: {'line': b'copying resource/imu_yaw -> /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/share/ament_index/resource_index/packages\n'}
+[1.261792] (imu_yaw) StdoutLine: {'line': b'copying package.xml -> /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/share/imu_yaw\n'}
+[1.261893] (imu_yaw) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.265605] (imu_yaw) StdoutLine: {'line': b'Copying ../../build/imu_yaw/imu_yaw.egg-info to /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages/imu_yaw-0.0.0-py3.10.egg-info\n'}
+[1.266774] (imu_yaw) StdoutLine: {'line': b'running install_scripts\n'}
+[1.273241] (video_receiver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.278967] (gscam2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.292389] (imu_yaw) StdoutLine: {'line': b'Installing imu_pub script to /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/imu_yaw\n'}
+[1.292651] (imu_yaw) StdoutLine: {'line': b'Installing imu_yaw script to /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/imu_yaw\n'}
+[1.292843] (imu_yaw) StdoutLine: {'line': b'Installing yaw_mux4 script to /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/imu_yaw\n'}
+[1.293027] (imu_yaw) StdoutLine: {'line': b'Installing yaw_mux8 script to /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/imu_yaw\n'}
+[1.293374] (imu_yaw) StdoutLine: {'line': b"writing list of installed files to '/home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/install.log'\n"}
+[1.301938] (-) TimerEvent: {}
+[1.322356] (imu_yaw) CommandEnded: {'returncode': 0}
+[1.329342] (imu_yaw) JobEnded: {'identifier': 'imu_yaw', 'rc': 0}
+[1.361443] (video_receiver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.364405] (video_receiver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.379212] (gscam2) StdoutLine: {'line': b'-- Found camera_calibration_parsers: 3.1.9 (/opt/ros/humble/share/camera_calibration_parsers/cmake)\n'}
+[1.402031] (-) TimerEvent: {}
+[1.425969] (gscam2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.431616] (gscam2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.441211] (gscam2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.457251] (gscam2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.475927] (video_receiver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.480474] (gscam2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.502150] (-) TimerEvent: {}
+[1.504016] (video_receiver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.554153] (video_receiver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.563228] (gscam2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.565319] (video_receiver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.566072] (gscam2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.602245] (-) TimerEvent: {}
+[1.644374] (video_receiver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.644890] (video_receiver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.677722] (gscam2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.702354] (-) TimerEvent: {}
+[1.706663] (gscam2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.723084] (video_receiver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.724335] (video_receiver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.757658] (gscam2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.768306] (gscam2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.802465] (-) TimerEvent: {}
+[1.845045] (gscam2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.845358] (gscam2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.902578] (-) TimerEvent: {}
+[1.909979] (video_receiver) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.922657] (gscam2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.923979] (gscam2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.002678] (-) TimerEvent: {}
+[2.062964] (video_receiver) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[2.084784] (video_receiver) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[2.089244] (video_receiver) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[2.097353] (video_receiver) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.102814] (-) TimerEvent: {}
+[2.182353] (video_receiver) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.183322] (video_receiver) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/laurus/workspace/gmsl/ros_ws/src/video_receiver/include\n'}
+[2.183506] (video_receiver) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.184123] (video_receiver) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.184916] (video_receiver) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.185613] (video_receiver) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.186665] (video_receiver) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.186846] (video_receiver) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.187505] (video_receiver) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.189146] (video_receiver) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.202907] (-) TimerEvent: {}
+[2.203696] (video_receiver) StdoutLine: {'line': b'-- Generating done\n'}
+[2.205362] (video_receiver) StdoutLine: {'line': b'-- Build files have been written to: /home/laurus/workspace/gmsl/ros_ws/build/video_receiver\n'}
+[2.216028] (video_receiver) CommandEnded: {'returncode': 0}
+[2.216686] (video_receiver) JobProgress: {'identifier': 'video_receiver', 'progress': 'build'}
+[2.217126] (video_receiver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/laurus/workspace/gmsl/ros_ws/build/video_receiver', '--', '-j8', '-l8'], 'cwd': '/home/laurus/workspace/gmsl/ros_ws/build/video_receiver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('DEVICE_ID', 'adis16500'), ('USER', 'laurus'), ('LC_TIME', 'ro_RO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces/lib:/home/laurus/workspace/gmsl/ros_ws/install/gscam2/lib:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/laurus'), ('OLDPWD', '/home/laurus/workspace/gmsl'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ro_RO.UTF-8'), ('SYSTEMD_EXEC_PID', '1953'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/laurus/workspace/gmsl/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'laurus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'laurus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/laurus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lenovo-ideapad-330s-14ikb:@/tmp/.ICE-unix/1925,unix/lenovo-ideapad-330s-14ikb:/tmp/.ICE-unix/1925'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ro_RO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/42e010a2_b800_4b4b_9c21_cedc8d8d84ed'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ro_RO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5ROXU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/laurus/workspace/gmsl/ros_ws/install/video_receiver:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces:/home/laurus/workspace/gmsl/ros_ws/install/gscam2:/home/laurus/workspace/gmsl/ros_ws/install/ros2_shared:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ro_RO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ro_RO.UTF-8'), ('LC_IDENTIFICATION', 'ro_RO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/laurus/workspace/gmsl/ros_ws/build/video_receiver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces/local/lib/python3.10/dist-packages:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ro_RO.UTF-8'), ('LC_PAPER', 'ro_RO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/laurus/workspace/gmsl/ros_ws/install/video_receiver:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces:/home/laurus/workspace/gmsl/ros_ws/install/gscam2:/home/laurus/workspace/gmsl/ros_ws/install/ros2_shared:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw:/opt/ros/humble')]), 'shell': False}
+[2.270415] (video_receiver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/video_receiver.dir/src/video_receiver.cpp.o\x1b[0m\n'}
+[2.296548] (gscam2) StdoutLine: {'line': b'-- Found camera_info_manager: 3.1.9 (/opt/ros/humble/share/camera_info_manager/cmake)\n'}
+[2.303003] (-) TimerEvent: {}
+[2.313108] (gscam2) StdoutLine: {'line': b'-- Found class_loader: 2.2.0 (/opt/ros/humble/share/class_loader/cmake)\n'}
+[2.322919] (gscam2) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[2.389688] (gscam2) StdoutLine: {'line': b'-- Found rclpy: 3.3.12 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[2.390157] (gscam2) StdoutLine: {'line': b'-- Found ros2_shared: 0.1.0 (/home/laurus/workspace/gmsl/ros_ws/install/ros2_shared/share/ros2_shared/cmake)\n'}
+[2.395598] (gscam2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.403111] (-) TimerEvent: {}
+[2.486963] (gscam2) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[2.500704] (gscam2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.500952] (gscam2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/laurus/workspace/gmsl/ros_ws/src/gscam2/include>\n'}
+[2.501034] (gscam2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.502028] (gscam2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.503213] (-) TimerEvent: {}
+[2.503972] (gscam2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.505114] (gscam2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.510404] (gscam2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.510601] (gscam2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.511607] (gscam2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.514338] (gscam2) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.549992] (gscam2) StdoutLine: {'line': b'-- Generating done\n'}
+[2.552275] (gscam2) StdoutLine: {'line': b'-- Build files have been written to: /home/laurus/workspace/gmsl/ros_ws/build/gscam2\n'}
+[2.564413] (gscam2) CommandEnded: {'returncode': 0}
+[2.565587] (gscam2) JobProgress: {'identifier': 'gscam2', 'progress': 'build'}
+[2.565907] (gscam2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/laurus/workspace/gmsl/ros_ws/build/gscam2', '--', '-j8', '-l8'], 'cwd': '/home/laurus/workspace/gmsl/ros_ws/build/gscam2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('DEVICE_ID', 'adis16500'), ('USER', 'laurus'), ('LC_TIME', 'ro_RO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces/lib:/home/laurus/workspace/gmsl/ros_ws/install/gscam2/lib:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/laurus'), ('OLDPWD', '/home/laurus/workspace/gmsl'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ro_RO.UTF-8'), ('SYSTEMD_EXEC_PID', '1953'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/laurus/workspace/gmsl/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'laurus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'laurus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/laurus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lenovo-ideapad-330s-14ikb:@/tmp/.ICE-unix/1925,unix/lenovo-ideapad-330s-14ikb:/tmp/.ICE-unix/1925'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ro_RO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/42e010a2_b800_4b4b_9c21_cedc8d8d84ed'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ro_RO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5ROXU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/laurus/workspace/gmsl/ros_ws/install/video_receiver:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces:/home/laurus/workspace/gmsl/ros_ws/install/gscam2:/home/laurus/workspace/gmsl/ros_ws/install/ros2_shared:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ro_RO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ro_RO.UTF-8'), ('LC_IDENTIFICATION', 'ro_RO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/laurus/workspace/gmsl/ros_ws/build/gscam2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces/local/lib/python3.10/dist-packages:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ro_RO.UTF-8'), ('LC_PAPER', 'ro_RO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/laurus/workspace/gmsl/ros_ws/install/ros2_shared:/home/laurus/workspace/gmsl/ros_ws/install/video_receiver:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces:/home/laurus/workspace/gmsl/ros_ws/install/gscam2:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw:/opt/ros/humble')]), 'shell': False}
+[2.603328] (-) TimerEvent: {}
+[2.620883] (gscam2) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[2.623341] (gscam2) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/gscam_node.dir/src/gscam_node.cpp.o\x1b[0m\n'}
+[2.623758] (gscam2) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[2.629247] (gscam2) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_node.dir/src/subscriber_node.cpp.o\x1b[0m\n'}
+[2.703444] (-) TimerEvent: {}
+[2.804130] (-) TimerEvent: {}
+[2.904577] (-) TimerEvent: {}
+[3.004917] (-) TimerEvent: {}
+[3.105293] (-) TimerEvent: {}
+[3.205681] (-) TimerEvent: {}
+[3.306056] (-) TimerEvent: {}
+[3.406431] (-) TimerEvent: {}
+[3.506820] (-) TimerEvent: {}
+[3.607224] (-) TimerEvent: {}
+[3.707609] (-) TimerEvent: {}
+[3.806776] (gscam2) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[3.807703] (-) TimerEvent: {}
+[3.862285] (gscam2) StdoutLine: {'line': b'[ 35%] Built target gtest_main\n'}
+[3.907825] (-) TimerEvent: {}
+[4.008206] (-) TimerEvent: {}
+[4.108590] (-) TimerEvent: {}
+[4.208941] (-) TimerEvent: {}
+[4.309332] (-) TimerEvent: {}
+[4.409690] (-) TimerEvent: {}
+[4.510050] (-) TimerEvent: {}
+[4.610412] (-) TimerEvent: {}
+[4.710782] (-) TimerEvent: {}
+[4.811141] (-) TimerEvent: {}
+[4.911502] (-) TimerEvent: {}
+[5.011864] (-) TimerEvent: {}
+[5.112215] (-) TimerEvent: {}
+[5.212598] (-) TimerEvent: {}
+[5.312961] (-) TimerEvent: {}
+[5.413332] (-) TimerEvent: {}
+[5.513707] (-) TimerEvent: {}
+[5.614118] (-) TimerEvent: {}
+[5.714504] (-) TimerEvent: {}
+[5.814930] (-) TimerEvent: {}
+[5.915299] (-) TimerEvent: {}
+[6.015661] (-) TimerEvent: {}
+[6.116015] (-) TimerEvent: {}
+[6.216404] (-) TimerEvent: {}
+[6.298050] (gscam2) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[6.316509] (-) TimerEvent: {}
+[6.374303] (gscam2) StdoutLine: {'line': b'[ 42%] Built target gtest\n'}
+[6.416614] (-) TimerEvent: {}
+[6.516908] (-) TimerEvent: {}
+[6.617208] (-) TimerEvent: {}
+[6.717492] (-) TimerEvent: {}
+[6.817778] (-) TimerEvent: {}
+[6.918105] (-) TimerEvent: {}
+[7.018407] (-) TimerEvent: {}
+[7.118729] (-) TimerEvent: {}
+[7.219037] (-) TimerEvent: {}
+[7.319326] (-) TimerEvent: {}
+[7.419630] (-) TimerEvent: {}
+[7.519927] (-) TimerEvent: {}
+[7.620231] (-) TimerEvent: {}
+[7.720485] (-) TimerEvent: {}
+[7.820765] (-) TimerEvent: {}
+[7.921062] (-) TimerEvent: {}
+[8.021382] (-) TimerEvent: {}
+[8.121692] (-) TimerEvent: {}
+[8.222022] (-) TimerEvent: {}
+[8.322374] (-) TimerEvent: {}
+[8.422762] (-) TimerEvent: {}
+[8.523155] (-) TimerEvent: {}
+[8.623555] (-) TimerEvent: {}
+[8.723937] (-) TimerEvent: {}
+[8.824299] (-) TimerEvent: {}
+[8.924692] (-) TimerEvent: {}
+[9.025055] (-) TimerEvent: {}
+[9.125387] (-) TimerEvent: {}
+[9.225676] (-) TimerEvent: {}
+[9.325958] (-) TimerEvent: {}
+[9.426270] (-) TimerEvent: {}
+[9.526552] (-) TimerEvent: {}
+[9.626814] (-) TimerEvent: {}
+[9.727098] (-) TimerEvent: {}
+[9.827371] (-) TimerEvent: {}
+[9.927707] (-) TimerEvent: {}
+[10.014066] (gscam2) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libgscam_node.so\x1b[0m\n'}
+[10.027826] (-) TimerEvent: {}
+[10.128164] (-) TimerEvent: {}
+[10.228477] (-) TimerEvent: {}
+[10.328747] (-) TimerEvent: {}
+[10.347099] (gscam2) StdoutLine: {'line': b'[ 50%] Built target gscam_node\n'}
+[10.370721] (gscam2) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/gscam_main.dir/src/gscam_main.cpp.o\x1b[0m\n'}
+[10.370979] (gscam2) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/smoke_test.dir/test/smoke_test.cpp.o\x1b[0m\n'}
+[10.428874] (-) TimerEvent: {}
+[10.529236] (-) TimerEvent: {}
+[10.629572] (-) TimerEvent: {}
+[10.729902] (-) TimerEvent: {}
+[10.830283] (-) TimerEvent: {}
+[10.930640] (-) TimerEvent: {}
+[11.030985] (-) TimerEvent: {}
+[11.131339] (-) TimerEvent: {}
+[11.231699] (-) TimerEvent: {}
+[11.332051] (-) TimerEvent: {}
+[11.432416] (-) TimerEvent: {}
+[11.532777] (-) TimerEvent: {}
+[11.633136] (-) TimerEvent: {}
+[11.733499] (-) TimerEvent: {}
+[11.833860] (-) TimerEvent: {}
+[11.934230] (-) TimerEvent: {}
+[12.034586] (-) TimerEvent: {}
+[12.134941] (-) TimerEvent: {}
+[12.216451] (video_receiver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable video_receiver\x1b[0m\n'}
+[12.235058] (-) TimerEvent: {}
+[12.335450] (-) TimerEvent: {}
+[12.435883] (-) TimerEvent: {}
+[12.536251] (-) TimerEvent: {}
+[12.636662] (-) TimerEvent: {}
+[12.736971] (-) TimerEvent: {}
+[12.837368] (-) TimerEvent: {}
+[12.937778] (-) TimerEvent: {}
+[12.961739] (video_receiver) StdoutLine: {'line': b'[100%] Built target video_receiver\n'}
+[12.976776] (video_receiver) CommandEnded: {'returncode': 0}
+[13.008799] (video_receiver) JobProgress: {'identifier': 'video_receiver', 'progress': 'install'}
+[13.009334] (video_receiver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/laurus/workspace/gmsl/ros_ws/build/video_receiver'], 'cwd': '/home/laurus/workspace/gmsl/ros_ws/build/video_receiver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('DEVICE_ID', 'adis16500'), ('USER', 'laurus'), ('LC_TIME', 'ro_RO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces/lib:/home/laurus/workspace/gmsl/ros_ws/install/gscam2/lib:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/laurus'), ('OLDPWD', '/home/laurus/workspace/gmsl'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ro_RO.UTF-8'), ('SYSTEMD_EXEC_PID', '1953'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/laurus/workspace/gmsl/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'laurus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'laurus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/laurus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lenovo-ideapad-330s-14ikb:@/tmp/.ICE-unix/1925,unix/lenovo-ideapad-330s-14ikb:/tmp/.ICE-unix/1925'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ro_RO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/42e010a2_b800_4b4b_9c21_cedc8d8d84ed'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ro_RO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5ROXU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/laurus/workspace/gmsl/ros_ws/install/video_receiver:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces:/home/laurus/workspace/gmsl/ros_ws/install/gscam2:/home/laurus/workspace/gmsl/ros_ws/install/ros2_shared:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ro_RO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ro_RO.UTF-8'), ('LC_IDENTIFICATION', 'ro_RO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/laurus/workspace/gmsl/ros_ws/build/video_receiver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces/local/lib/python3.10/dist-packages:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ro_RO.UTF-8'), ('LC_PAPER', 'ro_RO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/laurus/workspace/gmsl/ros_ws/install/video_receiver:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces:/home/laurus/workspace/gmsl/ros_ws/install/gscam2:/home/laurus/workspace/gmsl/ros_ws/install/ros2_shared:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw:/opt/ros/humble')]), 'shell': False}
+[13.018816] (video_receiver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.019106] (video_receiver) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/video_receiver/share/video_receiver/launch\n'}
+[13.019246] (video_receiver) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/video_receiver/share/video_receiver/launch/rtp_video_launch.py\n'}
+[13.019402] (video_receiver) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/video_receiver/lib/video_receiver/video_receiver\n'}
+[13.021336] (video_receiver) StdoutLine: {'line': b'-- Set runtime path of "/home/laurus/workspace/gmsl/ros_ws/install/video_receiver/lib/video_receiver/video_receiver" to ""\n'}
+[13.021585] (video_receiver) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/video_receiver/share/ament_index/resource_index/package_run_dependencies/video_receiver\n'}
+[13.022532] (video_receiver) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/video_receiver/share/ament_index/resource_index/parent_prefix_path/video_receiver\n'}
+[13.022718] (video_receiver) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/video_receiver/share/video_receiver/environment/ament_prefix_path.sh\n'}
+[13.022848] (video_receiver) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/video_receiver/share/video_receiver/environment/ament_prefix_path.dsv\n'}
+[13.023001] (video_receiver) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/video_receiver/share/video_receiver/environment/path.sh\n'}
+[13.023169] (video_receiver) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/video_receiver/share/video_receiver/environment/path.dsv\n'}
+[13.023281] (video_receiver) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/video_receiver/share/video_receiver/local_setup.bash\n'}
+[13.023447] (video_receiver) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/video_receiver/share/video_receiver/local_setup.sh\n'}
+[13.023622] (video_receiver) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/video_receiver/share/video_receiver/local_setup.zsh\n'}
+[13.023763] (video_receiver) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/video_receiver/share/video_receiver/local_setup.dsv\n'}
+[13.023874] (video_receiver) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/video_receiver/share/video_receiver/package.dsv\n'}
+[13.024038] (video_receiver) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/video_receiver/share/ament_index/resource_index/packages/video_receiver\n'}
+[13.024244] (video_receiver) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/video_receiver/share/video_receiver/cmake/video_receiverConfig.cmake\n'}
+[13.024508] (video_receiver) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/video_receiver/share/video_receiver/cmake/video_receiverConfig-version.cmake\n'}
+[13.024799] (video_receiver) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/video_receiver/share/video_receiver/package.xml\n'}
+[13.027060] (video_receiver) CommandEnded: {'returncode': 0}
+[13.037869] (-) TimerEvent: {}
+[13.076375] (video_receiver) JobEnded: {'identifier': 'video_receiver', 'rc': 0}
+[13.138005] (-) TimerEvent: {}
+[13.238412] (-) TimerEvent: {}
+[13.338805] (-) TimerEvent: {}
+[13.376006] (gscam2) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libsubscriber_node.so\x1b[0m\n'}
+[13.438948] (-) TimerEvent: {}
+[13.539323] (-) TimerEvent: {}
+[13.639679] (-) TimerEvent: {}
+[13.741510] (-) TimerEvent: {}
+[13.841861] (-) TimerEvent: {}
+[13.942239] (-) TimerEvent: {}
+[13.961099] (gscam2) StdoutLine: {'line': b'[ 71%] Built target subscriber_node\n'}
+[13.985686] (gscam2) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/ipc_test_main.dir/src/ipc_test_main.cpp.o\x1b[0m\n'}
+[14.042353] (-) TimerEvent: {}
+[14.142702] (-) TimerEvent: {}
+[14.175247] (gscam2) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable gscam_main\x1b[0m\n'}
+[14.242806] (-) TimerEvent: {}
+[14.343148] (-) TimerEvent: {}
+[14.356923] (gscam2) StdoutLine: {'line': b'[ 85%] Built target gscam_main\n'}
+[14.443255] (-) TimerEvent: {}
+[14.543594] (-) TimerEvent: {}
+[14.643907] (-) TimerEvent: {}
+[14.744220] (-) TimerEvent: {}
+[14.844549] (-) TimerEvent: {}
+[14.944872] (-) TimerEvent: {}
+[15.045221] (-) TimerEvent: {}
+[15.145553] (-) TimerEvent: {}
+[15.245874] (-) TimerEvent: {}
+[15.346193] (-) TimerEvent: {}
+[15.446553] (-) TimerEvent: {}
+[15.546850] (-) TimerEvent: {}
+[15.647147] (-) TimerEvent: {}
+[15.747471] (-) TimerEvent: {}
+[15.847827] (-) TimerEvent: {}
+[15.948233] (-) TimerEvent: {}
+[16.048481] (-) TimerEvent: {}
+[16.148795] (-) TimerEvent: {}
+[16.249092] (-) TimerEvent: {}
+[16.349402] (-) TimerEvent: {}
+[16.449720] (-) TimerEvent: {}
+[16.550041] (-) TimerEvent: {}
+[16.650393] (-) TimerEvent: {}
+[16.750800] (-) TimerEvent: {}
+[16.851105] (-) TimerEvent: {}
+[16.951391] (-) TimerEvent: {}
+[17.051683] (-) TimerEvent: {}
+[17.151974] (-) TimerEvent: {}
+[17.252287] (-) TimerEvent: {}
+[17.352647] (-) TimerEvent: {}
+[17.452902] (-) TimerEvent: {}
+[17.530169] (gscam2) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable ipc_test_main\x1b[0m\n'}
+[17.553016] (-) TimerEvent: {}
+[17.653338] (-) TimerEvent: {}
+[17.753683] (-) TimerEvent: {}
+[17.792001] (gscam2) StdoutLine: {'line': b'[ 92%] Built target ipc_test_main\n'}
+[17.853786] (-) TimerEvent: {}
+[17.954085] (-) TimerEvent: {}
+[18.054383] (-) TimerEvent: {}
+[18.154692] (-) TimerEvent: {}
+[18.254988] (-) TimerEvent: {}
+[18.355283] (-) TimerEvent: {}
+[18.455587] (-) TimerEvent: {}
+[18.555901] (-) TimerEvent: {}
+[18.656208] (-) TimerEvent: {}
+[18.756488] (-) TimerEvent: {}
+[18.856806] (-) TimerEvent: {}
+[18.957106] (-) TimerEvent: {}
+[19.057404] (-) TimerEvent: {}
+[19.157707] (-) TimerEvent: {}
+[19.258016] (-) TimerEvent: {}
+[19.358314] (-) TimerEvent: {}
+[19.458623] (-) TimerEvent: {}
+[19.558921] (-) TimerEvent: {}
+[19.659218] (-) TimerEvent: {}
+[19.759518] (-) TimerEvent: {}
+[19.859814] (-) TimerEvent: {}
+[19.960113] (-) TimerEvent: {}
+[20.060409] (-) TimerEvent: {}
+[20.160715] (-) TimerEvent: {}
+[20.261021] (-) TimerEvent: {}
+[20.361308] (-) TimerEvent: {}
+[20.461565] (-) TimerEvent: {}
+[20.561814] (-) TimerEvent: {}
+[20.662081] (-) TimerEvent: {}
+[20.721132] (gscam2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable smoke_test\x1b[0m\n'}
+[20.762179] (-) TimerEvent: {}
+[20.862476] (-) TimerEvent: {}
+[20.962770] (-) TimerEvent: {}
+[21.063068] (-) TimerEvent: {}
+[21.163343] (-) TimerEvent: {}
+[21.263654] (-) TimerEvent: {}
+[21.279330] (gscam2) StdoutLine: {'line': b'[100%] Built target smoke_test\n'}
+[21.290929] (gscam2) CommandEnded: {'returncode': 0}
+[21.334625] (gscam2) JobProgress: {'identifier': 'gscam2', 'progress': 'install'}
+[21.335445] (gscam2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/laurus/workspace/gmsl/ros_ws/build/gscam2'], 'cwd': '/home/laurus/workspace/gmsl/ros_ws/build/gscam2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('DEVICE_ID', 'adis16500'), ('USER', 'laurus'), ('LC_TIME', 'ro_RO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces/lib:/home/laurus/workspace/gmsl/ros_ws/install/gscam2/lib:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/laurus'), ('OLDPWD', '/home/laurus/workspace/gmsl'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ro_RO.UTF-8'), ('SYSTEMD_EXEC_PID', '1953'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/laurus/workspace/gmsl/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'laurus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'laurus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/laurus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lenovo-ideapad-330s-14ikb:@/tmp/.ICE-unix/1925,unix/lenovo-ideapad-330s-14ikb:/tmp/.ICE-unix/1925'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ro_RO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/42e010a2_b800_4b4b_9c21_cedc8d8d84ed'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ro_RO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5ROXU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/laurus/workspace/gmsl/ros_ws/install/video_receiver:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces:/home/laurus/workspace/gmsl/ros_ws/install/gscam2:/home/laurus/workspace/gmsl/ros_ws/install/ros2_shared:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ro_RO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ro_RO.UTF-8'), ('LC_IDENTIFICATION', 'ro_RO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/laurus/workspace/gmsl/ros_ws/build/gscam2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces/local/lib/python3.10/dist-packages:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ro_RO.UTF-8'), ('LC_PAPER', 'ro_RO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/laurus/workspace/gmsl/ros_ws/install/ros2_shared:/home/laurus/workspace/gmsl/ros_ws/install/video_receiver:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces:/home/laurus/workspace/gmsl/ros_ws/install/gscam2:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw:/opt/ros/humble')]), 'shell': False}
+[21.343137] (gscam2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.343360] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/include/gscam2\n'}
+[21.343509] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/include/gscam2/gscam_node.hpp\n'}
+[21.343615] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/include/gscam2/subscriber_node.hpp\n'}
+[21.343781] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/lib/libgscam_node.so\n'}
+[21.346729] (gscam2) StdoutLine: {'line': b'-- Set runtime path of "/home/laurus/workspace/gmsl/ros_ws/install/gscam2/lib/libgscam_node.so" to ""\n'}
+[21.346939] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/lib/libsubscriber_node.so\n'}
+[21.354436] (gscam2) StdoutLine: {'line': b'-- Set runtime path of "/home/laurus/workspace/gmsl/ros_ws/install/gscam2/lib/libsubscriber_node.so" to ""\n'}
+[21.354675] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/lib/gscam2/gscam_main\n'}
+[21.355243] (gscam2) StdoutLine: {'line': b'-- Set runtime path of "/home/laurus/workspace/gmsl/ros_ws/install/gscam2/lib/gscam2/gscam_main" to ""\n'}
+[21.355382] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/lib/gscam2/ipc_test_main\n'}
+[21.355950] (gscam2) StdoutLine: {'line': b'-- Set runtime path of "/home/laurus/workspace/gmsl/ros_ws/install/gscam2/lib/gscam2/ipc_test_main" to ""\n'}
+[21.356066] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/cfg\n'}
+[21.356203] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/cfg/my_camera.ini\n'}
+[21.356356] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/cfg/params.yaml\n'}
+[21.356539] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/cfg/workaround_params.yaml\n'}
+[21.356706] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/cfg/gmsl_params.yaml\n'}
+[21.356819] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/launch\n'}
+[21.356926] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/launch/composition_launch.py\n'}
+[21.357115] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/launch/gmsl_param_launch.py\n'}
+[21.357221] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/launch/gmsl_param_4launch.py\n'}
+[21.357327] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/launch/republish_launch.py\n'}
+[21.357437] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/launch/container_param_launch.py\n'}
+[21.357555] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/launch/node_param_launch.py\n'}
+[21.357614] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/environment/library_path.sh\n'}
+[21.357759] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/environment/library_path.dsv\n'}
+[21.357941] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/ament_index/resource_index/package_run_dependencies/gscam2\n'}
+[21.358152] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/ament_index/resource_index/parent_prefix_path/gscam2\n'}
+[21.358313] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/environment/ament_prefix_path.sh\n'}
+[21.358496] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/environment/ament_prefix_path.dsv\n'}
+[21.358730] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/environment/path.sh\n'}
+[21.358914] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/environment/path.dsv\n'}
+[21.359092] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/local_setup.bash\n'}
+[21.359235] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/local_setup.sh\n'}
+[21.359359] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/local_setup.zsh\n'}
+[21.359526] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/local_setup.dsv\n'}
+[21.359683] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/package.dsv\n'}
+[21.359894] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/ament_index/resource_index/packages/gscam2\n'}
+[21.360089] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/ament_index/resource_index/rclcpp_components/gscam2\n'}
+[21.360300] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/cmake/gscam2_targetsExport.cmake\n'}
+[21.360564] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/cmake/gscam2_targetsExport-noconfig.cmake\n'}
+[21.360769] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[21.360942] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[21.361099] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/cmake/gscam2Config.cmake\n'}
+[21.361280] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/cmake/gscam2Config-version.cmake\n'}
+[21.361440] (gscam2) StdoutLine: {'line': b'-- Installing: /home/laurus/workspace/gmsl/ros_ws/install/gscam2/share/gscam2/package.xml\n'}
+[21.363347] (gscam2) CommandEnded: {'returncode': 0}
+[21.364118] (-) TimerEvent: {}
+[21.421306] (gscam2) JobEnded: {'identifier': 'gscam2', 'rc': 0}
+[21.422218] (-) EventReactorShutdown: {}

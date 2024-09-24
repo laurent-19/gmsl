@@ -1,0 +1,81 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from imu_ros2/msg/adis1650x/ImuDiagData.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module imu_ros2 {
+  module msg {
+    @verbatim (language="comment", text=
+      "  @file   ImuDiagData.msg" "\n"
+      "  @brief  Definition of ImuDiagData message" "\n"
+      "  @author RBolboac (ramona.bolboaca@analog.com)" "\n"
+      "" "\n"
+      "Copyright 2023(c) Analog Devices, Inc." "\n"
+      "" "\n"
+      "Licensed under the Apache License, Version 2.0 (the \"License\");" "\n"
+      "you may not use this file except in compliance with the License." "\n"
+      "You may obtain a copy of the License at" "\n"
+      "" "\n"
+      "    http://www.apache.org/licenses/LICENSE-2.0" "\n"
+      "" "\n"
+      "Unless required by applicable law or agreed to in writing, software" "\n"
+      "distributed under the License is distributed on an \"AS IS\" BASIS," "\n"
+      "WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied." "\n"
+      "See the License for the specific language governing permissions and" "\n"
+      "limitations under the License.")
+    struct ImuDiagData {
+      @verbatim (language="comment", text=
+        "message header")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "if true, one of the datapaths experienced an overrun condition")
+      boolean diag_data_path_overrun;
+
+      @verbatim (language="comment", text=
+        "if true, the most recent imu memory flash failed")
+      boolean diag_flash_memory_update_error;
+
+      @verbatim (language="comment", text=
+        "if true, the total number of SPI SCLK cycles is not equal to an integer multiple of 16")
+      boolean diag_spi_communication_error;
+
+      @verbatim (language="comment", text=
+        "if true, the imu voltage across VDD and GND < 2.9V, which causes data processing to stop")
+      boolean diag_standby_mode;
+
+      @verbatim (language="comment", text=
+        "if true, the imu self-test routine failed")
+      boolean diag_sensor_self_test_error;
+
+      @verbatim (language="comment", text=
+        "if true, there is a failure in imu flash memory")
+      boolean diag_flash_memory_test_error;
+
+      @verbatim (language="comment", text=
+        "if true, the internal data sampling clock does not synchronize with the external clock (only in scaled sync mode)")
+      boolean diag_clock_error;
+
+      @verbatim (language="comment", text=
+        "if true, a failure occurred on accelerometer")
+      boolean diag_acceleration_self_test_error;
+
+      @verbatim (language="comment", text=
+        "if true, a failure occurred on gyroscope 1")
+      boolean diag_gyroscope1_self_test_error;
+
+      @verbatim (language="comment", text=
+        "if true, a failure occurred on gyroscope 2")
+      boolean diag_gyroscope2_self_test_error;
+
+      @verbatim (language="comment", text=
+        "if true, the imu flash memory was written more times than the data-sheet specified endurance")
+      boolean diag_flash_memory_write_count_exceeded_error;
+
+      @verbatim (language="comment", text=
+        "the value of the imu flash writes")
+      uint32 flash_counter;
+    };
+  };
+};

@@ -1,0 +1,123 @@
+[0.022s] Invoking command in '/home/laurus/workspace/gmsl/ros_ws/build/imu_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw:/opt/ros/humble /usr/bin/cmake --build /home/laurus/workspace/gmsl/ros_ws/build/imu_ros2 -- -j8 -l8
+[0.488s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.488s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.488s] [  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.488s] [  4%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.488s] [  4%] Built target ament_cmake_python_copy_imu_ros2
+[0.537s] running egg_info
+[0.538s] creating imu_ros2.egg-info
+[0.538s] writing imu_ros2.egg-info/PKG-INFO
+[0.540s] writing dependency_links to imu_ros2.egg-info/dependency_links.txt
+[0.540s] writing top-level names to imu_ros2.egg-info/top_level.txt
+[0.540s] writing manifest file 'imu_ros2.egg-info/SOURCES.txt'
+[0.542s] reading manifest file 'imu_ros2.egg-info/SOURCES.txt'
+[0.542s] writing manifest file 'imu_ros2.egg-info/SOURCES.txt'
+[0.579s] [  4%] Built target ament_cmake_python_build_imu_ros2_egg
+[1.445s] [  5%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.498s] [  5%] Built target gtest_main
+[1.573s] [  6%] [32mBuilding C object CMakeFiles/imu_ros2__rosidl_generator_c.dir/rosidl_generator_c/imu_ros2/msg/detail/imu_identification_data__functions.c.o[0m
+[1.576s] [  7%] [32mBuilding C object CMakeFiles/imu_ros2__rosidl_generator_c.dir/rosidl_generator_c/imu_ros2/msg/detail/vel_ang_temp_data__functions.c.o[0m
+[1.576s] [  8%] [32mBuilding C object CMakeFiles/imu_ros2__rosidl_generator_c.dir/rosidl_generator_c/imu_ros2/msg/detail/accel_gyro_temp_data__functions.c.o[0m
+[1.578s] [  9%] [32mBuilding C object CMakeFiles/imu_ros2__rosidl_generator_c.dir/rosidl_generator_c/imu_ros2/msg/detail/imu_full_measured_data__functions.c.o[0m
+[1.578s] [ 10%] [32mBuilding C object CMakeFiles/imu_ros2__rosidl_generator_c.dir/rosidl_generator_c/imu_ros2/msg/detail/imu_diag_data__functions.c.o[0m
+[1.587s] [ 10%] Built target imu_ros2__cpp
+[1.610s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.610s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.671s] [ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.682s] [ 14%] [32m[1mLinking C shared library libimu_ros2__rosidl_generator_c.so[0m
+[1.735s] [ 14%] Built target imu_ros2__rosidl_generator_c
+[1.750s] [ 15%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.752s] [ 17%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.754s] [ 18%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.274s] [ 19%] [32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/imu_ros2/msg/detail/imu_identification_data__type_support_c.cpp.o[0m
+[3.274s] [ 20%] [32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/imu_ros2/msg/detail/vel_ang_temp_data__type_support_c.cpp.o[0m
+[3.517s] [ 21%] [32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/imu_ros2/msg/imu_identification_data__type_support.cpp.o[0m
+[3.539s] [ 22%] [32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/imu_ros2/msg/detail/imu_identification_data__type_support.cpp.o[0m
+[3.724s] [ 23%] [32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/imu_ros2/msg/imu_identification_data__type_support.cpp.o[0m
+[3.791s] [ 24%] [32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/imu_ros2/msg/vel_ang_temp_data__type_support.cpp.o[0m
+[3.838s] [ 25%] [32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/imu_ros2/msg/detail/dds_fastrtps/imu_identification_data__type_support.cpp.o[0m
+[3.856s] [ 26%] [32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/imu_ros2/msg/imu_full_measured_data__type_support.cpp.o[0m
+[3.919s] [ 27%] [32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/imu_ros2/msg/accel_gyro_temp_data__type_support.cpp.o[0m
+[3.947s] [ 28%] [32mBuilding C object CMakeFiles/imu_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/imu_ros2/msg/detail/imu_identification_data__type_support.c.o[0m
+[3.995s] [ 29%] [32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/imu_ros2/msg/imu_diag_data__type_support.cpp.o[0m
+[4.010s] [ 30%] [32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/imu_ros2/msg/detail/dds_fastrtps/vel_ang_temp_data__type_support.cpp.o[0m
+[4.017s] [ 31%] [32mBuilding C object CMakeFiles/imu_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/imu_ros2/msg/detail/vel_ang_temp_data__type_support.c.o[0m
+[4.038s] [ 32%] [32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/imu_ros2/msg/detail/imu_full_measured_data__type_support_c.cpp.o[0m
+[4.064s] [ 34%] [32m[1mLinking CXX shared library libimu_ros2__rosidl_typesupport_c.so[0m
+[4.092s] [ 35%] [32mBuilding C object CMakeFiles/imu_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/imu_ros2/msg/detail/imu_full_measured_data__type_support.c.o[0m
+[4.103s] [ 36%] [32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/imu_ros2/msg/vel_ang_temp_data__type_support.cpp.o[0m
+[4.158s] [ 36%] Built target imu_ros2__rosidl_typesupport_c
+[4.164s] [ 37%] [32mBuilding C object CMakeFiles/imu_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/imu_ros2/msg/detail/accel_gyro_temp_data__type_support.c.o[0m
+[4.178s] [ 38%] [32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/imu_ros2/msg/detail/accel_gyro_temp_data__type_support_c.cpp.o[0m
+[4.248s] [ 39%] [32mBuilding C object CMakeFiles/imu_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/imu_ros2/msg/detail/imu_diag_data__type_support.c.o[0m
+[4.328s] [ 40%] [32m[1mLinking C shared library libimu_ros2__rosidl_typesupport_introspection_c.so[0m
+[4.332s] [ 41%] [32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/imu_ros2/msg/detail/vel_ang_temp_data__type_support.cpp.o[0m
+[4.389s] [ 41%] Built target imu_ros2__rosidl_typesupport_introspection_c
+[4.407s] [ 42%] [32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/imu_ros2/msg/detail/dds_fastrtps/imu_full_measured_data__type_support.cpp.o[0m
+[4.648s] [ 43%] [32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/imu_ros2/msg/imu_full_measured_data__type_support.cpp.o[0m
+[4.663s] [ 44%] [32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/imu_ros2/msg/detail/dds_fastrtps/accel_gyro_temp_data__type_support.cpp.o[0m
+[4.770s] [ 45%] [32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/imu_ros2/msg/detail/imu_full_measured_data__type_support.cpp.o[0m
+[4.866s] [ 46%] [32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/imu_ros2/msg/detail/accel_gyro_temp_data__type_support.cpp.o[0m
+[4.972s] [ 47%] [32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/imu_ros2/msg/detail/imu_diag_data__type_support_c.cpp.o[0m
+[5.110s] [ 48%] [32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/imu_ros2/msg/detail/dds_fastrtps/imu_diag_data__type_support.cpp.o[0m
+[5.191s] [ 50%] [32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/imu_ros2/msg/accel_gyro_temp_data__type_support.cpp.o[0m
+[5.242s] [ 51%] [32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/imu_ros2/msg/detail/imu_diag_data__type_support.cpp.o[0m
+[5.502s] [ 52%] [32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/imu_ros2/msg/imu_diag_data__type_support.cpp.o[0m
+[5.662s] [ 53%] [32m[1mLinking CXX shared library libimu_ros2__rosidl_typesupport_fastrtps_c.so[0m
+[5.833s] [ 53%] Built target imu_ros2__rosidl_typesupport_fastrtps_c
+[5.845s] [ 54%] [32m[1mLinking CXX static library libgtest.a[0m
+[5.876s] [ 55%] [32m[1mLinking CXX shared library libimu_ros2__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.915s] [ 56%] [32m[1mLinking CXX shared library libimu_ros2__rosidl_typesupport_cpp.so[0m
+[5.916s] [ 56%] Built target gtest
+[5.928s] [ 57%] [32m[1mLinking CXX shared library libimu_ros2__rosidl_typesupport_introspection_cpp.so[0m
+[5.969s] [ 57%] Built target imu_ros2__rosidl_typesupport_cpp
+[5.979s] [ 57%] Built target imu_ros2__rosidl_typesupport_fastrtps_cpp
+[6.000s] [ 58%] [32mBuilding CXX object CMakeFiles/imu_ros2_node.dir/src/accelgyrotemp_ros_publisher.cpp.o[0m
+[6.000s] [ 60%] [32mBuilding CXX object CMakeFiles/imu_ros2_node.dir/src/accelgyrotemp_data_provider.cpp.o[0m
+[6.000s] [ 60%] [32mBuilding CXX object test/CMakeFiles/imu_ros2_test_node.dir/src/imu_subscriber_test.cpp.o[0m
+[6.000s] [ 61%] [32mBuilding CXX object test/CMakeFiles/imu_ros2_test_node.dir/src/utest.cpp.o[0m
+[6.001s] [ 62%] [32mBuilding CXX object CMakeFiles/imu_ros2_node.dir/src/imu_control_parameters.cpp.o[0m
+[6.005s] [ 63%] [32mBuilding CXX object test/CMakeFiles/imu_ros2_test_node.dir/src/imu_full_measured_data_subscriber_test.cpp.o[0m
+[6.005s] [ 64%] [32mBuilding CXX object CMakeFiles/imu_ros2_node.dir/src/iio_wrapper.cpp.o[0m
+[6.042s] [ 64%] Built target imu_ros2__rosidl_typesupport_introspection_cpp
+[6.060s] [ 65%] [32mBuilding CXX object test/CMakeFiles/imu_ros2_test_node.dir/src/imu_identification_subscriber_test.cpp.o[0m
+[7.217s] [ 67%] [32mBuilding CXX object test/CMakeFiles/imu_ros2_test_node.dir/src/imu_diag_subscriber_test.cpp.o[0m
+[13.232s] [ 67%] Built target imu_ros2
+[13.252s] [ 68%] [32mBuilding CXX object CMakeFiles/imu_ros2_node.dir/src/imu_data_provider.cpp.o[0m
+[14.383s] [ 69%] [32mBuilding CXX object test/CMakeFiles/imu_ros2_test_node.dir/src/velangtemp_subscriber_test.cpp.o[0m
+[14.626s] [ 70%] [34m[1mGenerating Python code for ROS interfaces[0m
+[14.797s] [ 71%] [32mBuilding CXX object test/CMakeFiles/imu_ros2_test_node.dir/src/accelgyrotemp_subscriber_test.cpp.o[0m
+[15.076s] [ 72%] [32mBuilding CXX object CMakeFiles/imu_ros2_node.dir/src/imu_diag_data_provider.cpp.o[0m
+[19.566s] [ 72%] Built target imu_ros2__py
+[19.585s] [ 73%] [32mBuilding CXX object CMakeFiles/imu_ros2_node.dir/src/imu_diag_ros_publisher.cpp.o[0m
+[21.347s] [ 74%] [32mBuilding CXX object test/CMakeFiles/imu_ros2_test_node.dir/__/src/iio_wrapper.cpp.o[0m
+[25.097s] [ 75%] [32mBuilding CXX object CMakeFiles/imu_ros2_node.dir/src/imu_full_measured_data_provider.cpp.o[0m
+[25.190s] [ 76%] [32mBuilding C object CMakeFiles/imu_ros2__rosidl_generator_py.dir/rosidl_generator_py/imu_ros2/msg/_imu_identification_data_s.c.o[0m
+[25.402s] [ 77%] [32mBuilding C object CMakeFiles/imu_ros2__rosidl_generator_py.dir/rosidl_generator_py/imu_ros2/msg/_vel_ang_temp_data_s.c.o[0m
+[25.603s] [ 78%] [32mBuilding C object CMakeFiles/imu_ros2__rosidl_generator_py.dir/rosidl_generator_py/imu_ros2/msg/_imu_full_measured_data_s.c.o[0m
+[25.811s] [ 79%] [32mBuilding C object CMakeFiles/imu_ros2__rosidl_generator_py.dir/rosidl_generator_py/imu_ros2/msg/_accel_gyro_temp_data_s.c.o[0m
+[26.040s] [ 80%] [32mBuilding C object CMakeFiles/imu_ros2__rosidl_generator_py.dir/rosidl_generator_py/imu_ros2/msg/_imu_diag_data_s.c.o[0m
+[26.278s] [ 81%] [32m[1mLinking C shared library rosidl_generator_py/imu_ros2/libimu_ros2__rosidl_generator_py.so[0m
+[26.343s] [ 82%] [32mBuilding CXX object CMakeFiles/imu_ros2_node.dir/src/imu_full_measured_data_ros_publisher.cpp.o[0m
+[26.347s] [ 84%] [32mBuilding CXX object CMakeFiles/imu_ros2_node.dir/src/imu_identification_data_provider.cpp.o[0m
+[26.370s] [ 84%] Built target imu_ros2__rosidl_generator_py
+[26.406s] [ 85%] [32mBuilding C object CMakeFiles/imu_ros2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/imu_ros2/_imu_ros2_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[26.643s] [ 86%] [32m[1mLinking C shared library rosidl_generator_py/imu_ros2/imu_ros2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[26.738s] [ 86%] Built target imu_ros2__rosidl_typesupport_fastrtps_c__pyext
+[26.796s] [ 87%] [32mBuilding C object CMakeFiles/imu_ros2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/imu_ros2/_imu_ros2_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[27.114s] [ 88%] [32m[1mLinking C shared library rosidl_generator_py/imu_ros2/imu_ros2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[27.232s] [ 88%] Built target imu_ros2__rosidl_typesupport_introspection_c__pyext
+[27.282s] [ 89%] [32mBuilding C object CMakeFiles/imu_ros2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/imu_ros2/_imu_ros2_s.ep.rosidl_typesupport_c.c.o[0m
+[27.399s] [ 90%] [32mBuilding CXX object CMakeFiles/imu_ros2_node.dir/src/imu_identification_ros_publisher.cpp.o[0m
+[27.605s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/imu_ros2/imu_ros2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[27.745s] [ 91%] Built target imu_ros2__rosidl_typesupport_c__pyext
+[27.769s] [ 92%] [32mBuilding CXX object CMakeFiles/imu_ros2_node.dir/src/imu_ros2_node.cpp.o[0m
+[27.919s] [ 93%] [32mBuilding CXX object CMakeFiles/imu_ros2_node.dir/src/imu_ros_publisher.cpp.o[0m
+[28.496s] [ 94%] [32mBuilding CXX object CMakeFiles/imu_ros2_node.dir/src/ros_publisher_group.cpp.o[0m
+[29.416s] [ 95%] [32mBuilding CXX object CMakeFiles/imu_ros2_node.dir/src/velangtemp_data_provider.cpp.o[0m
+[30.995s] [ 96%] [32mBuilding CXX object CMakeFiles/imu_ros2_node.dir/src/velangtemp_ros_publisher.cpp.o[0m
+[35.620s] [ 97%] [32mBuilding CXX object CMakeFiles/imu_ros2_node.dir/src/worker_thread.cpp.o[0m
+[37.134s] [ 98%] [32m[1mLinking CXX executable imu_ros2_test_node[0m
+[39.504s] [100%] [32m[1mLinking CXX executable imu_ros2_node[0m
+[39.646s] [100%] Built target imu_ros2_test_node
+[40.160s] [100%] Built target imu_ros2_node

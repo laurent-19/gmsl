@@ -1,0 +1,10 @@
+{
+  "package_name": "imu_ros2",
+  "non_idl_tuples": [
+    "/home/laurus/workspace/gmsl/ros_ws/src/imu-ros2:msg/ImuIdentificationData.msg",
+    "/home/laurus/workspace/gmsl/ros_ws/src/imu-ros2:msg/VelAngTempData.msg",
+    "/home/laurus/workspace/gmsl/ros_ws/src/imu-ros2:msg/ImuFullMeasuredData.msg",
+    "/home/laurus/workspace/gmsl/ros_ws/src/imu-ros2:msg/AccelGyroTempData.msg",
+    "/home/laurus/workspace/gmsl/ros_ws/src/imu-ros2:msg/adis1650x/ImuDiagData.msg"
+  ]
+}

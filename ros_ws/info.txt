@@ -1,0 +1,322 @@
+iio_info version: 0.25 (git tag:18df990d)
+Libiio version: 0.25 (git tag: 18df990) backends: local xml ip usb
+IIO context created with network backend.
+Backend version: 0.25 (git tag: 18df990)
+Backend description string: 10.42.0.137 Linux kria-gmsl 6.1.5-g19e31fe4c1ae-dirty #3 SMP Wed Apr  3 17:54:24 EEST 2024 aarch64
+IIO context has 3 attributes:
+	local,kernel: 6.1.5-g19e31fe4c1ae-dirty
+	uri: ip:10.42.0.137
+	ip,ip-addr: 10.42.0.137
+IIO context has 5 devices:
+	hwmon0: ams
+		30 channels found:
+			in21:  (input)
+			1 channel-specific attributes found:
+				attr  0: input value: 1248
+			in15:  (input)
+			1 channel-specific attributes found:
+				attr  0: input value: 1790
+			in3:  (input)
+			1 channel-specific attributes found:
+				attr  0: input value: 713
+			in25:  (input)
+			1 channel-specific attributes found:
+				attr  0: input value: 840
+			in19:  (input)
+			1 channel-specific attributes found:
+				attr  0: input value: 718
+			in7:  (input)
+			1 channel-specific attributes found:
+				attr  0: input value: 841
+			temp3:  (input)
+			1 channel-specific attributes found:
+				attr  0: input value: 30122
+			in12:  (input)
+			1 channel-specific attributes found:
+				attr  0: input value: 1789
+			in22:  (input)
+			1 channel-specific attributes found:
+				attr  0: input value: 0
+			in16:  (input)
+			1 channel-specific attributes found:
+				attr  0: input value: 855
+			in4:  (input)
+			1 channel-specific attributes found:
+				attr  0: input value: 849
+			in26:  (input)
+			1 channel-specific attributes found:
+				attr  0: input value: 1802
+			in8:  (input)
+			1 channel-specific attributes found:
+				attr  0: input value: 844
+			in13:  (input)
+			1 channel-specific attributes found:
+				attr  0: input value: 1788
+			in1:  (input)
+			1 channel-specific attributes found:
+				attr  0: input value: 1193
+			in23:  (input)
+			1 channel-specific attributes found:
+				attr  0: input value: 850
+			in17:  (input)
+			1 channel-specific attributes found:
+				attr  0: input value: 1804
+			in5:  (input)
+			1 channel-specific attributes found:
+				attr  0: input value: 1801
+			in27:  (input)
+			1 channel-specific attributes found:
+				attr  0: input value: 1799
+			temp1:  (input)
+			1 channel-specific attributes found:
+				attr  0: input value: 31023
+			in10:  (input)
+			1 channel-specific attributes found:
+				attr  0: input value: 1800
+			in20:  (input)
+			1 channel-specific attributes found:
+				attr  0: input value: 1802
+			in9:  (input)
+			1 channel-specific attributes found:
+				attr  0: input value: 842
+			in14:  (input)
+			1 channel-specific attributes found:
+				attr  0: input value: 1790
+			in2:  (input)
+			1 channel-specific attributes found:
+				attr  0: input value: 0
+			in24:  (input)
+			1 channel-specific attributes found:
+				attr  0: input value: 844
+			in18:  (input)
+			1 channel-specific attributes found:
+				attr  0: input value: 1798
+			in6:  (input)
+			1 channel-specific attributes found:
+				attr  0: input value: 1796
+			temp2:  (input)
+			1 channel-specific attributes found:
+				attr  0: input value: 30899
+			in11:  (input)
+			1 channel-specific attributes found:
+				attr  0: input value: 1193
+		No trigger on this device
+	hwmon1: pwmfan
+		1 channels found:
+			pwm1:  (input)
+			2 channel-specific attributes found:
+				attr  0: enable value: 1
+				attr  1: pwm1 value: 255
+		No trigger on this device
+	iio:device0: xilinx-ams
+		30 channels found:
+			voltage9:  (input)
+			2 channel-specific attributes found:
+				attr  0: raw value: 18441
+				attr  1: scale value: 0.045776367
+			temp20:  (input)
+			4 channel-specific attributes found:
+				attr  0: input value: 31288
+				attr  1: offset value: -36058
+				attr  2: raw value: 39998
+				attr  3: scale value: 7.771514892
+			voltage11:  (input)
+			2 channel-specific attributes found:
+				attr  0: raw value: 39302
+				attr  1: scale value: 0.045776367
+			voltage23:  (input)
+			2 channel-specific attributes found:
+				attr  0: raw value: 27358
+				attr  1: scale value: 0.045776367
+			voltage15:  (input)
+			2 channel-specific attributes found:
+				attr  0: raw value: 19545
+				attr  1: scale value: 0.091552734
+			voltage2:  (input)
+			2 channel-specific attributes found:
+				attr  0: raw value: 15602
+				attr  1: scale value: 0.045776367
+			temp8:  (input)
+			4 channel-specific attributes found:
+				attr  0: input value: 31303
+				attr  1: offset value: -36058
+				attr  2: raw value: 40098
+				attr  3: scale value: 7.771514892
+			voltage19:  (input)
+			2 channel-specific attributes found:
+				attr  0: raw value: 39202
+				attr  1: scale value: 0.045776367
+			voltage17:  (input)
+			2 channel-specific attributes found:
+				attr  0: raw value: 18696
+				attr  1: scale value: 0.045776367
+			voltage22:  (input)
+			2 channel-specific attributes found:
+				attr  0: raw value: 39372
+				attr  1: scale value: 0.045776367
+			temp7:  (input)
+			4 channel-specific attributes found:
+				attr  0: input value: 30650
+				attr  1: offset value: -36058
+				attr  2: raw value: 40132
+				attr  3: scale value: 7.771514892
+			voltage1:  (input)
+			2 channel-specific attributes found:
+				attr  0: raw value: 0
+				attr  1: scale value: 0.045776367
+			voltage26:  (input)
+			2 channel-specific attributes found:
+				attr  0: raw value: 18489
+				attr  1: scale value: 0.045776367
+			voltage27:  (input)
+			2 channel-specific attributes found:
+				attr  0: raw value: 18418
+				attr  1: scale value: 0.045776367
+			voltage10:  (input)
+			2 channel-specific attributes found:
+				attr  0: raw value: 18450
+				attr  1: scale value: 0.045776367
+			voltage5:  (input)
+			2 channel-specific attributes found:
+				attr  0: raw value: 39261
+				attr  1: scale value: 0.045776367
+			voltage6:  (input)
+			2 channel-specific attributes found:
+				attr  0: raw value: 18400
+				attr  1: scale value: 0.045776367
+			voltage14:  (input)
+			2 channel-specific attributes found:
+				attr  0: raw value: 19515
+				attr  1: scale value: 0.091552734
+			voltage12:  (input)
+			2 channel-specific attributes found:
+				attr  0: raw value: 26080
+				attr  1: scale value: 0.045776367
+			voltage16:  (input)
+			2 channel-specific attributes found:
+				attr  0: raw value: 19541
+				attr  1: scale value: 0.091552734
+			voltage24:  (input)
+			2 channel-specific attributes found:
+				attr  0: raw value: 0
+				attr  1: scale value: 0.045776367
+			voltage3:  (input)
+			2 channel-specific attributes found:
+				attr  0: raw value: 18555
+				attr  1: scale value: 0.045776367
+			voltage18:  (input)
+			2 channel-specific attributes found:
+				attr  0: raw value: 39426
+				attr  1: scale value: 0.045776367
+			voltage28:  (input)
+			2 channel-specific attributes found:
+				attr  0: raw value: 39373
+				attr  1: scale value: 0.045776367
+			voltage21:  (input)
+			2 channel-specific attributes found:
+				attr  0: raw value: 15737
+				attr  1: scale value: 0.045776367
+			voltage0:  (input)
+			2 channel-specific attributes found:
+				attr  0: raw value: 26086
+				attr  1: scale value: 0.045776367
+			voltage13:  (input)
+			2 channel-specific attributes found:
+				attr  0: raw value: 19531
+				attr  1: scale value: 0.091552734
+			voltage25:  (input)
+			2 channel-specific attributes found:
+				attr  0: raw value: 18566
+				attr  1: scale value: 0.045776367
+			voltage4:  (input)
+			2 channel-specific attributes found:
+				attr  0: raw value: 39268
+				attr  1: scale value: 0.045776367
+			voltage29:  (input)
+			2 channel-specific attributes found:
+				attr  0: raw value: 39394
+				attr  1: scale value: 0.045776367
+		1 device-specific attributes found:
+				attr  0: waiting_for_supplier value: 0
+		No trigger on this device
+	iio:device1: adis16500 (buffer capable)
+		14 channels found:
+			anglvel_x:  (input, index: 0, format: be:S32/32>>0)
+			3 channel-specific attributes found:
+				attr  0: calibbias value: 0
+				attr  1: raw value: -30798
+				attr  2: scale value: 0.000000026
+			anglvel_y:  (input, index: 1, format: be:S32/32>>0)
+			3 channel-specific attributes found:
+				attr  0: calibbias value: 0
+				attr  1: raw value: 93602
+				attr  2: scale value: 0.000000026
+			anglvel_z:  (input, index: 2, format: be:S32/32>>0)
+			3 channel-specific attributes found:
+				attr  0: calibbias value: 0
+				attr  1: raw value: 190719
+				attr  2: scale value: 0.000000026
+			accel_x:  (input, index: 3, format: be:S32/32>>0)
+			3 channel-specific attributes found:
+				attr  0: calibbias value: 0
+				attr  1: raw value: -9110259
+				attr  2: scale value: 0.000000186
+			accel_y:  (input, index: 4, format: be:S32/32>>0)
+			3 channel-specific attributes found:
+				attr  0: calibbias value: 0
+				attr  1: raw value: 16670611
+				attr  2: scale value: 0.000000186
+			accel_z:  (input, index: 5, format: be:S32/32>>0)
+			3 channel-specific attributes found:
+				attr  0: calibbias value: 0
+				attr  1: raw value: 49176643
+				attr  2: scale value: 0.000000186
+			temp0:  (input, index: 6, format: be:S16/16>>0)
+			2 channel-specific attributes found:
+				attr  0: raw value: 275
+				attr  1: scale value: 100
+			deltaangl_x:  (input, WARN:iio_channel_get_type()=UNKNOWN, index: 7, format: be:S32/32>>0)
+			2 channel-specific attributes found:
+				attr  0: raw value: -515
+				attr  1: scale value: 0.000000017
+			deltaangl_y:  (input, WARN:iio_channel_get_type()=UNKNOWN, index: 8, format: be:S32/32>>0)
+			2 channel-specific attributes found:
+				attr  0: raw value: 305
+				attr  1: scale value: 0.000000017
+			deltaangl_z:  (input, WARN:iio_channel_get_type()=UNKNOWN, index: 9, format: be:S32/32>>0)
+			2 channel-specific attributes found:
+				attr  0: raw value: -98
+				attr  1: scale value: 0.000000017
+			deltavelocity_x:  (input, WARN:iio_channel_get_type()=UNKNOWN, index: 10, format: be:S32/32>>0)
+			2 channel-specific attributes found:
+				attr  0: raw value: -4485
+				attr  1: scale value: 0.000000186
+			deltavelocity_y:  (input, WARN:iio_channel_get_type()=UNKNOWN, index: 11, format: be:S32/32>>0)
+			2 channel-specific attributes found:
+				attr  0: raw value: 7401
+				attr  1: scale value: 0.000000186
+			deltavelocity_z:  (input, WARN:iio_channel_get_type()=UNKNOWN, index: 12, format: be:S32/32>>0)
+			2 channel-specific attributes found:
+				attr  0: raw value: 24760
+				attr  1: scale value: 0.000000186
+			timestamp:  (input, index: 13, format: le:S64/64>>0)
+		4 device-specific attributes found:
+				attr  0: current_timestamp_clock value: realtime
+
+				attr  1: filter_low_pass_3db_frequency value: 720
+				attr  2: sampling_frequency value: 2000.000000
+				attr  3: waiting_for_supplier value: 0
+		2 buffer-specific attributes found:
+				attr  0: data_available value: 0
+				attr  1: direction value: in
+		6 debug attributes found:
+				debug attr  0: firmware_date value: 10-29-2019
+				debug attr  1: firmware_revision value: 1.6
+				debug attr  2: flash_count value: 34
+				debug attr  3: product_id value: 16500
+				debug attr  4: serial_number value: 0x0074
+				debug attr  5: direct_reg_access value: 0x0
+ERROR: checking for trigger : Input/output error (5)
+	trigger0: adis16500-dev1
+		0 channels found:
+		No trigger on this device

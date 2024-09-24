@@ -110,3 +110,10 @@ To start streaming video on multiple UDP ports: 5004, 5005, 5006, and 5007, run 
 
 ```bash
 gst-launch-1.0 v4l2src device=/dev/video0 ! videoscale ! video/x-raw,width=1280,height=720 ! videoconvert ! rtpvrawpay mtu=16334 ! tee name=t t. ! queue ! udpsink host=127.0.0.1 port=5004 t. ! queue ! udpsink host=127.0.0.1 port=5005 t. ! queue ! udpsink host=127.0.0.1 port=5006 t. ! queue ! udpsink host=127.0.0.1 port=5007
+```
+for publishing 8 streams:
+
+```bash
+gst-launch-1.0 v4l2src device=/dev/video0 ! videoscale ! video/x-raw,width=1280,height=720 ! videoconvert ! rtpvrawpay mtu=16334 ! tee name=t t. ! queue ! udpsink host=127.0.0.1 port=5004 t. ! queue ! udpsink host=127.0.0.1 port=5005 t. ! queue ! udpsink host=127.0.0.1 port=5006 t. ! queue ! udpsink host=127.0.0.1 port=5007 t. ! queue ! udpsink host=127.0.0.1 port=5008 t. ! queue ! udpsink host=127.0.0.1 port=5009 t. ! queue ! udpsink host=127.0.0.1 port=5010 t. ! queue ! udpsink host=127.0.0.1 port=5011
+```
+

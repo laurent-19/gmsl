@@ -1,0 +1,59 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from imu_ros2/msg/ImuFullMeasuredData.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3.idl"
+#include "std_msgs/msg/Header.idl"
+
+module imu_ros2 {
+  module msg {
+    @verbatim (language="comment", text=
+      "  @file   ImuFullMeasuredData.msg" "\n"
+      "  @brief  Definition of ImuFullMeasuredData message" "\n"
+      "  @author RBolboac (ramona.bolboaca@analog.com)" "\n"
+      "" "\n"
+      "Copyright 2023(c) Analog Devices, Inc." "\n"
+      "" "\n"
+      "Licensed under the Apache License, Version 2.0 (the \"License\");" "\n"
+      "you may not use this file except in compliance with the License." "\n"
+      "You may obtain a copy of the License at" "\n"
+      "" "\n"
+      "    http://www.apache.org/licenses/LICENSE-2.0" "\n"
+      "" "\n"
+      "Unless required by applicable law or agreed to in writing, software" "\n"
+      "distributed under the License is distributed on an \"AS IS\" BASIS," "\n"
+      "WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied." "\n"
+      "See the License for the specific language governing permissions and" "\n"
+      "limitations under the License.")
+    struct ImuFullMeasuredData {
+      @verbatim (language="comment", text=
+        "message header")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "3-axis acceleration")
+      @unit (value="m/s^2")
+      geometry_msgs::msg::Vector3 linear_acceleration;
+
+      @verbatim (language="comment", text=
+        "3-axis angular velocity")
+      @unit (value="rad/s")
+      geometry_msgs::msg::Vector3 angular_velocity;
+
+      @verbatim (language="comment", text=
+        "3-axis delta velocity (delta between two consecutive measurements)")
+      @unit (value="m/s")
+      geometry_msgs::msg::Vector3 delta_velocity;
+
+      @verbatim (language="comment", text=
+        "3-axis delta angle (delta between two consecutive measurements)")
+      @unit (value="radians")
+      geometry_msgs::msg::Vector3 delta_angle;
+
+      @verbatim (language="comment", text=
+        "imu internal temperature")
+      @unit (value="°C")
+      double temperature;
+    };
+  };
+};

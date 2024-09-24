@@ -1,0 +1,10 @@
+adis1650x/ImuDiagData.msg
+msg/AccelGyroTempData.idl
+msg/AccelGyroTempData.msg
+msg/ImuDiagData.idl
+msg/ImuFullMeasuredData.idl
+msg/ImuFullMeasuredData.msg
+msg/ImuIdentificationData.idl
+msg/ImuIdentificationData.msg
+msg/VelAngTempData.idl
+msg/VelAngTempData.msg

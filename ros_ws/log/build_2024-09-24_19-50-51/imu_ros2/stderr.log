@@ -1,0 +1,8 @@
+[33mCMake Warning (dev) at CMakeLists.txt:47 (message):
+  DEVICE_ID=adis16500 which is a valid value.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at test/CMakeLists.txt:47 (message):
+  DEVICE_ID=adis16500 which is a valid value.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m

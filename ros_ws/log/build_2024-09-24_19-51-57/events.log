@@ -1,0 +1,542 @@
+[0.000000] (-) TimerEvent: {}
+[0.001165] (imu_ros2) JobQueued: {'identifier': 'imu_ros2', 'dependencies': OrderedDict()}
+[0.001209] (imu_yaw) JobQueued: {'identifier': 'imu_yaw', 'dependencies': OrderedDict()}
+[0.001232] (ros2_shared) JobQueued: {'identifier': 'ros2_shared', 'dependencies': OrderedDict()}
+[0.001253] (video_receiver) JobQueued: {'identifier': 'video_receiver', 'dependencies': OrderedDict()}
+[0.001269] (gscam2) JobQueued: {'identifier': 'gscam2', 'dependencies': OrderedDict([('ros2_shared', '/home/laurus/workspace/gmsl/ros_ws/install/ros2_shared')])}
+[0.001290] (ros2_shared) JobStarted: {'identifier': 'ros2_shared'}
+[0.008165] (imu_ros2) JobStarted: {'identifier': 'imu_ros2'}
+[0.011850] (imu_yaw) JobStarted: {'identifier': 'imu_yaw'}
+[0.016919] (video_receiver) JobStarted: {'identifier': 'video_receiver'}
+[0.022037] (ros2_shared) JobProgress: {'identifier': 'ros2_shared', 'progress': 'cmake'}
+[0.023448] (ros2_shared) JobProgress: {'identifier': 'ros2_shared', 'progress': 'build'}
+[0.023648] (ros2_shared) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/laurus/workspace/gmsl/ros_ws/build/ros2_shared', '--', '-j8', '-l8'], 'cwd': '/home/laurus/workspace/gmsl/ros_ws/build/ros2_shared', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('DEVICE_ID', 'adis16500'), ('USER', 'laurus'), ('LC_TIME', 'ro_RO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces/lib:/home/laurus/workspace/gmsl/ros_ws/install/gscam2/lib:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/laurus'), ('OLDPWD', '/home/laurus/workspace/gmsl'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ro_RO.UTF-8'), ('SYSTEMD_EXEC_PID', '1953'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/laurus/workspace/gmsl/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'laurus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'laurus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/laurus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lenovo-ideapad-330s-14ikb:@/tmp/.ICE-unix/1925,unix/lenovo-ideapad-330s-14ikb:/tmp/.ICE-unix/1925'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ro_RO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/42e010a2_b800_4b4b_9c21_cedc8d8d84ed'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ro_RO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5ROXU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/laurus/workspace/gmsl/ros_ws/install/video_receiver:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces:/home/laurus/workspace/gmsl/ros_ws/install/gscam2:/home/laurus/workspace/gmsl/ros_ws/install/ros2_shared:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ro_RO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ro_RO.UTF-8'), ('LC_IDENTIFICATION', 'ro_RO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/laurus/workspace/gmsl/ros_ws/build/ros2_shared'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces/local/lib/python3.10/dist-packages:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ro_RO.UTF-8'), ('LC_PAPER', 'ro_RO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/laurus/workspace/gmsl/ros_ws/install/video_receiver:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces:/home/laurus/workspace/gmsl/ros_ws/install/gscam2:/home/laurus/workspace/gmsl/ros_ws/install/ros2_shared:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw:/opt/ros/humble')]), 'shell': False}
+[0.026743] (imu_ros2) JobProgress: {'identifier': 'imu_ros2', 'progress': 'cmake'}
+[0.027357] (imu_ros2) JobProgress: {'identifier': 'imu_ros2', 'progress': 'build'}
+[0.027788] (imu_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/laurus/workspace/gmsl/ros_ws/build/imu_ros2', '--', '-j8', '-l8'], 'cwd': '/home/laurus/workspace/gmsl/ros_ws/build/imu_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('DEVICE_ID', 'adis16500'), ('USER', 'laurus'), ('LC_TIME', 'ro_RO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces/lib:/home/laurus/workspace/gmsl/ros_ws/install/gscam2/lib:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/laurus'), ('OLDPWD', '/home/laurus/workspace/gmsl'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ro_RO.UTF-8'), ('SYSTEMD_EXEC_PID', '1953'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/laurus/workspace/gmsl/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'laurus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'laurus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/laurus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lenovo-ideapad-330s-14ikb:@/tmp/.ICE-unix/1925,unix/lenovo-ideapad-330s-14ikb:/tmp/.ICE-unix/1925'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ro_RO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/42e010a2_b800_4b4b_9c21_cedc8d8d84ed'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ro_RO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5ROXU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/laurus/workspace/gmsl/ros_ws/install/video_receiver:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces:/home/laurus/workspace/gmsl/ros_ws/install/gscam2:/home/laurus/workspace/gmsl/ros_ws/install/ros2_shared:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ro_RO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ro_RO.UTF-8'), ('LC_IDENTIFICATION', 'ro_RO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/laurus/workspace/gmsl/ros_ws/build/imu_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces/local/lib/python3.10/dist-packages:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ro_RO.UTF-8'), ('LC_PAPER', 'ro_RO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/laurus/workspace/gmsl/ros_ws/install/video_receiver:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools:/home/laurus/workspace/gmsl/ros_ws/install/topic_tools_interfaces:/home/laurus/workspace/gmsl/ros_ws/install/gscam2:/home/laurus/workspace/gmsl/ros_ws/install/ros2_shared:/home/laurus/workspace/gmsl/ros_ws/install/imu_ros2:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw:/opt/ros/humble')]), 'shell': False}
+[0.099992] (-) TimerEvent: {}
+[0.200367] (-) TimerEvent: {}
+[0.300708] (-) TimerEvent: {}
+[0.401496] (-) TimerEvent: {}
+[0.490667] (imu_yaw) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n  File "/usr/lib/python3/dist-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 57, in getter\n    return get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 241, in get_setup_information\n    _setup_information_cache[hashable_env] = _get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 288, in _get_setup_information\n    result = subprocess.run(\n  File "/usr/lib/python3.10/subprocess.py", line 526, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command \'[\'/usr/bin/python3\', \'-c\', \'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \\\'setup.py\\\', script_args=(\\\'--dry-run\\\',), stop_after=\\\'config\\\');skip_keys = (\\\'cmdclass\\\', \\\'distclass\\\', \\\'ext_modules\\\', \\\'metadata\\\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\\\'_\\\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\\\'metadata\\\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\\\'license_files\\\', \\\'provides_extras\\\')};sys.stdout.buffer.write(repr(data).encode(\\\'utf-8\\\'))\']\' returned non-zero exit status 1.\n'}
+[0.492568] (imu_yaw) JobEnded: {'identifier': 'imu_yaw', 'rc': 1}
+[0.494804] (video_receiver) JobEnded: {'identifier': 'video_receiver', 'rc': 'SIGINT'}
+[0.495839] (imu_ros2) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.496142] (imu_ros2) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.496303] (imu_ros2) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[0.496431] (imu_ros2) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[0.496551] (imu_ros2) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_imu_ros2\n'}
+[0.496670] (ros2_shared) JobEnded: {'identifier': 'ros2_shared', 'rc': 'SIGINT'}
+[0.501614] (-) TimerEvent: {}
+[0.545266] (imu_ros2) StdoutLine: {'line': b'running egg_info\n'}
+[0.546072] (imu_ros2) StdoutLine: {'line': b'creating imu_ros2.egg-info\n'}
+[0.546425] (imu_ros2) StdoutLine: {'line': b'writing imu_ros2.egg-info/PKG-INFO\n'}
+[0.548027] (imu_ros2) StdoutLine: {'line': b'writing dependency_links to imu_ros2.egg-info/dependency_links.txt\n'}
+[0.548290] (imu_ros2) StdoutLine: {'line': b'writing top-level names to imu_ros2.egg-info/top_level.txt\n'}
+[0.548462] (imu_ros2) StdoutLine: {'line': b"writing manifest file 'imu_ros2.egg-info/SOURCES.txt'\n"}
+[0.549749] (imu_ros2) StdoutLine: {'line': b"reading manifest file 'imu_ros2.egg-info/SOURCES.txt'\n"}
+[0.550398] (imu_ros2) StdoutLine: {'line': b"writing manifest file 'imu_ros2.egg-info/SOURCES.txt'\n"}
+[0.587197] (imu_ros2) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_imu_ros2_egg\n'}
+[0.601724] (-) TimerEvent: {}
+[0.702056] (-) TimerEvent: {}
+[0.802391] (-) TimerEvent: {}
+[0.902717] (-) TimerEvent: {}
+[1.003043] (-) TimerEvent: {}
+[1.103382] (-) TimerEvent: {}
+[1.203720] (-) TimerEvent: {}
+[1.304073] (-) TimerEvent: {}
+[1.404420] (-) TimerEvent: {}
+[1.453218] (imu_ros2) StdoutLine: {'line': b'[  5%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[1.505252] (-) TimerEvent: {}
+[1.506008] (imu_ros2) StdoutLine: {'line': b'[  5%] Built target gtest_main\n'}
+[1.581300] (imu_ros2) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/imu_ros2__rosidl_generator_c.dir/rosidl_generator_c/imu_ros2/msg/detail/imu_identification_data__functions.c.o\x1b[0m\n'}
+[1.583673] (imu_ros2) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/imu_ros2__rosidl_generator_c.dir/rosidl_generator_c/imu_ros2/msg/detail/vel_ang_temp_data__functions.c.o\x1b[0m\n'}
+[1.583984] (imu_ros2) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/imu_ros2__rosidl_generator_c.dir/rosidl_generator_c/imu_ros2/msg/detail/accel_gyro_temp_data__functions.c.o\x1b[0m\n'}
+[1.586326] (imu_ros2) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/imu_ros2__rosidl_generator_c.dir/rosidl_generator_c/imu_ros2/msg/detail/imu_full_measured_data__functions.c.o\x1b[0m\n'}
+[1.586565] (imu_ros2) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/imu_ros2__rosidl_generator_c.dir/rosidl_generator_c/imu_ros2/msg/detail/imu_diag_data__functions.c.o\x1b[0m\n'}
+[1.595236] (imu_ros2) StdoutLine: {'line': b'[ 10%] Built target imu_ros2__cpp\n'}
+[1.605340] (-) TimerEvent: {}
+[1.617965] (imu_ros2) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.618274] (imu_ros2) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.679554] (imu_ros2) StdoutLine: {'line': b'[ 13%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.689710] (imu_ros2) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libimu_ros2__rosidl_generator_c.so\x1b[0m\n'}
+[1.705446] (-) TimerEvent: {}
+[1.743540] (imu_ros2) StdoutLine: {'line': b'[ 14%] Built target imu_ros2__rosidl_generator_c\n'}
+[1.758330] (imu_ros2) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.759898] (imu_ros2) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.762445] (imu_ros2) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.808948] (-) TimerEvent: {}
+[1.909269] (-) TimerEvent: {}
+[2.009601] (-) TimerEvent: {}
+[2.109943] (-) TimerEvent: {}
+[2.210281] (-) TimerEvent: {}
+[2.310608] (-) TimerEvent: {}
+[2.411011] (-) TimerEvent: {}
+[2.512121] (-) TimerEvent: {}
+[2.612989] (-) TimerEvent: {}
+[2.713342] (-) TimerEvent: {}
+[2.814330] (-) TimerEvent: {}
+[2.914669] (-) TimerEvent: {}
+[3.015384] (-) TimerEvent: {}
+[3.115706] (-) TimerEvent: {}
+[3.217644] (-) TimerEvent: {}
+[3.281918] (imu_ros2) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/imu_ros2/msg/detail/imu_identification_data__type_support_c.cpp.o\x1b[0m\n'}
+[3.282170] (imu_ros2) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/imu_ros2/msg/detail/vel_ang_temp_data__type_support_c.cpp.o\x1b[0m\n'}
+[3.317749] (-) TimerEvent: {}
+[3.418127] (-) TimerEvent: {}
+[3.518486] (-) TimerEvent: {}
+[3.525162] (imu_ros2) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/imu_ros2/msg/imu_identification_data__type_support.cpp.o\x1b[0m\n'}
+[3.547478] (imu_ros2) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/imu_ros2/msg/detail/imu_identification_data__type_support.cpp.o\x1b[0m\n'}
+[3.618611] (-) TimerEvent: {}
+[3.722975] (-) TimerEvent: {}
+[3.731802] (imu_ros2) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/imu_ros2/msg/imu_identification_data__type_support.cpp.o\x1b[0m\n'}
+[3.799321] (imu_ros2) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/imu_ros2/msg/vel_ang_temp_data__type_support.cpp.o\x1b[0m\n'}
+[3.823084] (-) TimerEvent: {}
+[3.846542] (imu_ros2) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/imu_ros2/msg/detail/dds_fastrtps/imu_identification_data__type_support.cpp.o\x1b[0m\n'}
+[3.864189] (imu_ros2) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/imu_ros2/msg/imu_full_measured_data__type_support.cpp.o\x1b[0m\n'}
+[3.923217] (-) TimerEvent: {}
+[3.926560] (imu_ros2) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/imu_ros2/msg/accel_gyro_temp_data__type_support.cpp.o\x1b[0m\n'}
+[3.954961] (imu_ros2) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding C object CMakeFiles/imu_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/imu_ros2/msg/detail/imu_identification_data__type_support.c.o\x1b[0m\n'}
+[4.002570] (imu_ros2) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/imu_ros2/msg/imu_diag_data__type_support.cpp.o\x1b[0m\n'}
+[4.018418] (imu_ros2) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/imu_ros2/msg/detail/dds_fastrtps/vel_ang_temp_data__type_support.cpp.o\x1b[0m\n'}
+[4.023480] (-) TimerEvent: {}
+[4.024965] (imu_ros2) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object CMakeFiles/imu_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/imu_ros2/msg/detail/vel_ang_temp_data__type_support.c.o\x1b[0m\n'}
+[4.044672] (imu_ros2) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/imu_ros2/msg/detail/imu_full_measured_data__type_support_c.cpp.o\x1b[0m\n'}
+[4.071964] (imu_ros2) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking CXX shared library libimu_ros2__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.100124] (imu_ros2) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/imu_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/imu_ros2/msg/detail/imu_full_measured_data__type_support.c.o\x1b[0m\n'}
+[4.111374] (imu_ros2) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/imu_ros2/msg/vel_ang_temp_data__type_support.cpp.o\x1b[0m\n'}
+[4.123599] (-) TimerEvent: {}
+[4.165617] (imu_ros2) StdoutLine: {'line': b'[ 36%] Built target imu_ros2__rosidl_typesupport_c\n'}
+[4.171755] (imu_ros2) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object CMakeFiles/imu_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/imu_ros2/msg/detail/accel_gyro_temp_data__type_support.c.o\x1b[0m\n'}
+[4.186129] (imu_ros2) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/imu_ros2/msg/detail/accel_gyro_temp_data__type_support_c.cpp.o\x1b[0m\n'}
+[4.223711] (-) TimerEvent: {}
+[4.256534] (imu_ros2) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object CMakeFiles/imu_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/imu_ros2/msg/detail/imu_diag_data__type_support.c.o\x1b[0m\n'}
+[4.323828] (-) TimerEvent: {}
+[4.335961] (imu_ros2) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking C shared library libimu_ros2__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.339652] (imu_ros2) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/imu_ros2/msg/detail/vel_ang_temp_data__type_support.cpp.o\x1b[0m\n'}
+[4.397225] (imu_ros2) StdoutLine: {'line': b'[ 41%] Built target imu_ros2__rosidl_typesupport_introspection_c\n'}
+[4.414867] (imu_ros2) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/imu_ros2/msg/detail/dds_fastrtps/imu_full_measured_data__type_support.cpp.o\x1b[0m\n'}
+[4.423960] (-) TimerEvent: {}
+[4.526963] (-) TimerEvent: {}
+[4.627341] (-) TimerEvent: {}
+[4.656252] (imu_ros2) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/imu_ros2/msg/imu_full_measured_data__type_support.cpp.o\x1b[0m\n'}
+[4.671543] (imu_ros2) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/imu_ros2/msg/detail/dds_fastrtps/accel_gyro_temp_data__type_support.cpp.o\x1b[0m\n'}
+[4.727459] (-) TimerEvent: {}
+[4.778366] (imu_ros2) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/imu_ros2/msg/detail/imu_full_measured_data__type_support.cpp.o\x1b[0m\n'}
+[4.827586] (-) TimerEvent: {}
+[4.874303] (imu_ros2) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/imu_ros2/msg/detail/accel_gyro_temp_data__type_support.cpp.o\x1b[0m\n'}
+[4.927707] (-) TimerEvent: {}
+[4.980611] (imu_ros2) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/imu_ros2/msg/detail/imu_diag_data__type_support_c.cpp.o\x1b[0m\n'}
+[5.027824] (-) TimerEvent: {}
+[5.118152] (imu_ros2) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/imu_ros2/msg/detail/dds_fastrtps/imu_diag_data__type_support.cpp.o\x1b[0m\n'}
+[5.127955] (-) TimerEvent: {}
+[5.199214] (imu_ros2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/imu_ros2/msg/accel_gyro_temp_data__type_support.cpp.o\x1b[0m\n'}
+[5.228096] (-) TimerEvent: {}
+[5.250119] (imu_ros2) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/imu_ros2/msg/detail/imu_diag_data__type_support.cpp.o\x1b[0m\n'}
+[5.328209] (-) TimerEvent: {}
+[5.428576] (-) TimerEvent: {}
+[5.510138] (imu_ros2) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/imu_ros2/msg/imu_diag_data__type_support.cpp.o\x1b[0m\n'}
+[5.528696] (-) TimerEvent: {}
+[5.629261] (-) TimerEvent: {}
+[5.669782] (imu_ros2) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libimu_ros2__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.729376] (-) TimerEvent: {}
+[5.830315] (-) TimerEvent: {}
+[5.841323] (imu_ros2) StdoutLine: {'line': b'[ 53%] Built target imu_ros2__rosidl_typesupport_fastrtps_c\n'}
+[5.853083] (imu_ros2) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[5.884421] (imu_ros2) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libimu_ros2__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.923532] (imu_ros2) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libimu_ros2__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.923846] (imu_ros2) StdoutLine: {'line': b'[ 56%] Built target gtest\n'}
+[5.930448] (-) TimerEvent: {}
+[5.936166] (imu_ros2) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libimu_ros2__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.976729] (imu_ros2) StdoutLine: {'line': b'[ 57%] Built target imu_ros2__rosidl_typesupport_cpp\n'}
+[5.986879] (imu_ros2) StdoutLine: {'line': b'[ 57%] Built target imu_ros2__rosidl_typesupport_fastrtps_cpp\n'}
+[6.007960] (imu_ros2) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2_node.dir/src/accelgyrotemp_ros_publisher.cpp.o\x1b[0m\n'}
+[6.008245] (imu_ros2) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2_node.dir/src/accelgyrotemp_data_provider.cpp.o\x1b[0m\n'}
+[6.008411] (imu_ros2) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object test/CMakeFiles/imu_ros2_test_node.dir/src/imu_subscriber_test.cpp.o\x1b[0m\n'}
+[6.008540] (imu_ros2) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object test/CMakeFiles/imu_ros2_test_node.dir/src/utest.cpp.o\x1b[0m\n'}
+[6.009090] (imu_ros2) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2_node.dir/src/imu_control_parameters.cpp.o\x1b[0m\n'}
+[6.013089] (imu_ros2) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object test/CMakeFiles/imu_ros2_test_node.dir/src/imu_full_measured_data_subscriber_test.cpp.o\x1b[0m\n'}
+[6.013546] (imu_ros2) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2_node.dir/src/iio_wrapper.cpp.o\x1b[0m\n'}
+[6.030558] (-) TimerEvent: {}
+[6.049977] (imu_ros2) StdoutLine: {'line': b'[ 64%] Built target imu_ros2__rosidl_typesupport_introspection_cpp\n'}
+[6.067702] (imu_ros2) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object test/CMakeFiles/imu_ros2_test_node.dir/src/imu_identification_subscriber_test.cpp.o\x1b[0m\n'}
+[6.130683] (-) TimerEvent: {}
+[6.231070] (-) TimerEvent: {}
+[6.331796] (-) TimerEvent: {}
+[6.436114] (-) TimerEvent: {}
+[6.536544] (-) TimerEvent: {}
+[6.636959] (-) TimerEvent: {}
+[6.737459] (-) TimerEvent: {}
+[6.837853] (-) TimerEvent: {}
+[6.938279] (-) TimerEvent: {}
+[7.038689] (-) TimerEvent: {}
+[7.139125] (-) TimerEvent: {}
+[7.224991] (imu_ros2) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object test/CMakeFiles/imu_ros2_test_node.dir/src/imu_diag_subscriber_test.cpp.o\x1b[0m\n'}
+[7.239256] (-) TimerEvent: {}
+[7.339633] (-) TimerEvent: {}
+[7.439966] (-) TimerEvent: {}
+[7.540376] (-) TimerEvent: {}
+[7.640751] (-) TimerEvent: {}
+[7.742141] (-) TimerEvent: {}
+[7.842582] (-) TimerEvent: {}
+[7.945175] (-) TimerEvent: {}
+[8.045677] (-) TimerEvent: {}
+[8.146133] (-) TimerEvent: {}
+[8.246564] (-) TimerEvent: {}
+[8.346975] (-) TimerEvent: {}
+[8.447369] (-) TimerEvent: {}
+[8.551974] (-) TimerEvent: {}
+[8.652373] (-) TimerEvent: {}
+[8.752766] (-) TimerEvent: {}
+[8.853195] (-) TimerEvent: {}
+[8.953601] (-) TimerEvent: {}
+[9.053972] (-) TimerEvent: {}
+[9.154374] (-) TimerEvent: {}
+[9.254836] (-) TimerEvent: {}
+[9.356101] (-) TimerEvent: {}
+[9.456790] (-) TimerEvent: {}
+[9.559309] (-) TimerEvent: {}
+[9.659716] (-) TimerEvent: {}
+[9.760120] (-) TimerEvent: {}
+[9.863970] (-) TimerEvent: {}
+[9.964357] (-) TimerEvent: {}
+[10.064754] (-) TimerEvent: {}
+[10.168979] (-) TimerEvent: {}
+[10.269449] (-) TimerEvent: {}
+[10.370209] (-) TimerEvent: {}
+[10.470615] (-) TimerEvent: {}
+[10.571265] (-) TimerEvent: {}
+[10.671849] (-) TimerEvent: {}
+[10.777040] (-) TimerEvent: {}
+[10.877476] (-) TimerEvent: {}
+[10.979360] (-) TimerEvent: {}
+[11.079756] (-) TimerEvent: {}
+[11.183969] (-) TimerEvent: {}
+[11.284399] (-) TimerEvent: {}
+[11.385975] (-) TimerEvent: {}
+[11.486618] (-) TimerEvent: {}
+[11.587271] (-) TimerEvent: {}
+[11.688971] (-) TimerEvent: {}
+[11.789596] (-) TimerEvent: {}
+[11.893136] (-) TimerEvent: {}
+[11.993540] (-) TimerEvent: {}
+[12.094186] (-) TimerEvent: {}
+[12.195955] (-) TimerEvent: {}
+[12.296969] (-) TimerEvent: {}
+[12.398978] (-) TimerEvent: {}
+[12.499712] (-) TimerEvent: {}
+[12.600351] (-) TimerEvent: {}
+[12.701988] (-) TimerEvent: {}
+[12.805150] (-) TimerEvent: {}
+[12.905665] (-) TimerEvent: {}
+[13.006271] (-) TimerEvent: {}
+[13.109160] (-) TimerEvent: {}
+[13.209679] (-) TimerEvent: {}
+[13.240468] (imu_ros2) StdoutLine: {'line': b'[ 67%] Built target imu_ros2\n'}
+[13.259997] (imu_ros2) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2_node.dir/src/imu_data_provider.cpp.o\x1b[0m\n'}
+[13.309812] (-) TimerEvent: {}
+[13.410238] (-) TimerEvent: {}
+[13.513964] (-) TimerEvent: {}
+[13.614576] (-) TimerEvent: {}
+[13.715230] (-) TimerEvent: {}
+[13.815734] (-) TimerEvent: {}
+[13.918650] (-) TimerEvent: {}
+[14.022400] (-) TimerEvent: {}
+[14.122798] (-) TimerEvent: {}
+[14.223194] (-) TimerEvent: {}
+[14.323847] (-) TimerEvent: {}
+[14.391584] (imu_ros2) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object test/CMakeFiles/imu_ros2_test_node.dir/src/velangtemp_subscriber_test.cpp.o\x1b[0m\n'}
+[14.426032] (-) TimerEvent: {}
+[14.526440] (-) TimerEvent: {}
+[14.626803] (-) TimerEvent: {}
+[14.633814] (imu_ros2) StdoutLine: {'line': b'[ 70%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[14.726930] (-) TimerEvent: {}
+[14.805017] (imu_ros2) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object test/CMakeFiles/imu_ros2_test_node.dir/src/accelgyrotemp_subscriber_test.cpp.o\x1b[0m\n'}
+[14.827031] (-) TimerEvent: {}
+[14.927372] (-) TimerEvent: {}
+[15.031961] (-) TimerEvent: {}
+[15.083784] (imu_ros2) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2_node.dir/src/imu_diag_data_provider.cpp.o\x1b[0m\n'}
+[15.132081] (-) TimerEvent: {}
+[15.232489] (-) TimerEvent: {}
+[15.333290] (-) TimerEvent: {}
+[15.433929] (-) TimerEvent: {}
+[15.534530] (-) TimerEvent: {}
+[15.637121] (-) TimerEvent: {}
+[15.737741] (-) TimerEvent: {}
+[15.838369] (-) TimerEvent: {}
+[15.942266] (-) TimerEvent: {}
+[16.042665] (-) TimerEvent: {}
+[16.143072] (-) TimerEvent: {}
+[16.243486] (-) TimerEvent: {}
+[16.343918] (-) TimerEvent: {}
+[16.444573] (-) TimerEvent: {}
+[16.546307] (-) TimerEvent: {}
+[16.646952] (-) TimerEvent: {}
+[16.747618] (-) TimerEvent: {}
+[16.852365] (-) TimerEvent: {}
+[16.953905] (-) TimerEvent: {}
+[17.054356] (-) TimerEvent: {}
+[17.156081] (-) TimerEvent: {}
+[17.256514] (-) TimerEvent: {}
+[17.357169] (-) TimerEvent: {}
+[17.459433] (-) TimerEvent: {}
+[17.560200] (-) TimerEvent: {}
+[17.660844] (-) TimerEvent: {}
+[17.763115] (-) TimerEvent: {}
+[17.863519] (-) TimerEvent: {}
+[17.963916] (-) TimerEvent: {}
+[18.065110] (-) TimerEvent: {}
+[18.169958] (-) TimerEvent: {}
+[18.272972] (-) TimerEvent: {}
+[18.373397] (-) TimerEvent: {}
+[18.473791] (-) TimerEvent: {}
+[18.574462] (-) TimerEvent: {}
+[18.675217] (-) TimerEvent: {}
+[18.775970] (-) TimerEvent: {}
+[18.880143] (-) TimerEvent: {}
+[18.980570] (-) TimerEvent: {}
+[19.080958] (-) TimerEvent: {}
+[19.181604] (-) TimerEvent: {}
+[19.282231] (-) TimerEvent: {}
+[19.384142] (-) TimerEvent: {}
+[19.484615] (-) TimerEvent: {}
+[19.574551] (imu_ros2) StdoutLine: {'line': b'[ 72%] Built target imu_ros2__py\n'}
+[19.584743] (-) TimerEvent: {}
+[19.593298] (imu_ros2) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2_node.dir/src/imu_diag_ros_publisher.cpp.o\x1b[0m\n'}
+[19.684858] (-) TimerEvent: {}
+[19.786961] (-) TimerEvent: {}
+[19.887355] (-) TimerEvent: {}
+[19.987817] (-) TimerEvent: {}
+[20.091157] (-) TimerEvent: {}
+[20.191573] (-) TimerEvent: {}
+[20.292091] (-) TimerEvent: {}
+[20.395144] (-) TimerEvent: {}
+[20.495667] (-) TimerEvent: {}
+[20.596143] (-) TimerEvent: {}
+[20.698148] (-) TimerEvent: {}
+[20.798655] (-) TimerEvent: {}
+[20.904118] (-) TimerEvent: {}
+[21.015504] (-) TimerEvent: {}
+[21.115916] (-) TimerEvent: {}
+[21.216548] (-) TimerEvent: {}
+[21.320964] (-) TimerEvent: {}
+[21.354804] (imu_ros2) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object test/CMakeFiles/imu_ros2_test_node.dir/__/src/iio_wrapper.cpp.o\x1b[0m\n'}
+[21.421086] (-) TimerEvent: {}
+[21.521486] (-) TimerEvent: {}
+[21.621862] (-) TimerEvent: {}
+[21.722298] (-) TimerEvent: {}
+[21.822674] (-) TimerEvent: {}
+[21.923091] (-) TimerEvent: {}
+[22.025958] (-) TimerEvent: {}
+[22.126325] (-) TimerEvent: {}
+[22.226962] (-) TimerEvent: {}
+[22.329964] (-) TimerEvent: {}
+[22.430340] (-) TimerEvent: {}
+[22.530694] (-) TimerEvent: {}
+[22.633968] (-) TimerEvent: {}
+[22.734337] (-) TimerEvent: {}
+[22.834970] (-) TimerEvent: {}
+[22.935704] (-) TimerEvent: {}
+[23.038165] (-) TimerEvent: {}
+[23.139152] (-) TimerEvent: {}
+[23.243122] (-) TimerEvent: {}
+[23.343548] (-) TimerEvent: {}
+[23.444526] (-) TimerEvent: {}
+[23.546121] (-) TimerEvent: {}
+[23.648129] (-) TimerEvent: {}
+[23.748515] (-) TimerEvent: {}
+[23.848924] (-) TimerEvent: {}
+[23.953303] (-) TimerEvent: {}
+[24.053699] (-) TimerEvent: {}
+[24.157572] (-) TimerEvent: {}
+[24.257951] (-) TimerEvent: {}
+[24.358565] (-) TimerEvent: {}
+[24.462779] (-) TimerEvent: {}
+[24.565966] (-) TimerEvent: {}
+[24.666377] (-) TimerEvent: {}
+[24.766761] (-) TimerEvent: {}
+[24.867165] (-) TimerEvent: {}
+[24.967527] (-) TimerEvent: {}
+[25.071312] (-) TimerEvent: {}
+[25.104869] (imu_ros2) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2_node.dir/src/imu_full_measured_data_provider.cpp.o\x1b[0m\n'}
+[25.171463] (-) TimerEvent: {}
+[25.197866] (imu_ros2) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object CMakeFiles/imu_ros2__rosidl_generator_py.dir/rosidl_generator_py/imu_ros2/msg/_imu_identification_data_s.c.o\x1b[0m\n'}
+[25.271579] (-) TimerEvent: {}
+[25.371956] (-) TimerEvent: {}
+[25.410408] (imu_ros2) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/imu_ros2__rosidl_generator_py.dir/rosidl_generator_py/imu_ros2/msg/_vel_ang_temp_data_s.c.o\x1b[0m\n'}
+[25.472966] (-) TimerEvent: {}
+[25.573371] (-) TimerEvent: {}
+[25.607745] (imu_ros2) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object CMakeFiles/imu_ros2__rosidl_generator_py.dir/rosidl_generator_py/imu_ros2/msg/_imu_full_measured_data_s.c.o\x1b[0m\n'}
+[25.673492] (-) TimerEvent: {}
+[25.774077] (-) TimerEvent: {}
+[25.818873] (imu_ros2) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/imu_ros2__rosidl_generator_py.dir/rosidl_generator_py/imu_ros2/msg/_accel_gyro_temp_data_s.c.o\x1b[0m\n'}
+[25.874205] (-) TimerEvent: {}
+[25.974617] (-) TimerEvent: {}
+[26.047671] (imu_ros2) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/imu_ros2__rosidl_generator_py.dir/rosidl_generator_py/imu_ros2/msg/_imu_diag_data_s.c.o\x1b[0m\n'}
+[26.076970] (-) TimerEvent: {}
+[26.177387] (-) TimerEvent: {}
+[26.277794] (-) TimerEvent: {}
+[26.286066] (imu_ros2) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/imu_ros2/libimu_ros2__rosidl_generator_py.so\x1b[0m\n'}
+[26.351439] (imu_ros2) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2_node.dir/src/imu_full_measured_data_ros_publisher.cpp.o\x1b[0m\n'}
+[26.355408] (imu_ros2) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2_node.dir/src/imu_identification_data_provider.cpp.o\x1b[0m\n'}
+[26.377740] (imu_ros2) StdoutLine: {'line': b'[ 84%] Built target imu_ros2__rosidl_generator_py\n'}
+[26.378002] (-) TimerEvent: {}
+[26.413860] (imu_ros2) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/imu_ros2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/imu_ros2/_imu_ros2_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[26.478971] (-) TimerEvent: {}
+[26.579354] (-) TimerEvent: {}
+[26.651225] (imu_ros2) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/imu_ros2/imu_ros2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[26.682970] (-) TimerEvent: {}
+[26.745759] (imu_ros2) StdoutLine: {'line': b'[ 86%] Built target imu_ros2__rosidl_typesupport_fastrtps_c__pyext\n'}
+[26.783090] (-) TimerEvent: {}
+[26.803692] (imu_ros2) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/imu_ros2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/imu_ros2/_imu_ros2_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[26.883218] (-) TimerEvent: {}
+[26.983644] (-) TimerEvent: {}
+[27.087971] (-) TimerEvent: {}
+[27.121875] (imu_ros2) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/imu_ros2/imu_ros2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[27.188099] (-) TimerEvent: {}
+[27.239752] (imu_ros2) StdoutLine: {'line': b'[ 88%] Built target imu_ros2__rosidl_typesupport_introspection_c__pyext\n'}
+[27.288227] (-) TimerEvent: {}
+[27.290161] (imu_ros2) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/imu_ros2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/imu_ros2/_imu_ros2_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[27.388455] (-) TimerEvent: {}
+[27.406943] (imu_ros2) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2_node.dir/src/imu_identification_ros_publisher.cpp.o\x1b[0m\n'}
+[27.488583] (-) TimerEvent: {}
+[27.592176] (-) TimerEvent: {}
+[27.613317] (imu_ros2) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/imu_ros2/imu_ros2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[27.692300] (-) TimerEvent: {}
+[27.752827] (imu_ros2) StdoutLine: {'line': b'[ 91%] Built target imu_ros2__rosidl_typesupport_c__pyext\n'}
+[27.777013] (imu_ros2) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2_node.dir/src/imu_ros2_node.cpp.o\x1b[0m\n'}
+[27.792421] (-) TimerEvent: {}
+[27.892911] (-) TimerEvent: {}
+[27.926853] (imu_ros2) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2_node.dir/src/imu_ros_publisher.cpp.o\x1b[0m\n'}
+[27.993969] (-) TimerEvent: {}
+[28.094440] (-) TimerEvent: {}
+[28.197973] (-) TimerEvent: {}
+[28.298462] (-) TimerEvent: {}
+[28.398928] (-) TimerEvent: {}
+[28.499369] (-) TimerEvent: {}
+[28.503579] (imu_ros2) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2_node.dir/src/ros_publisher_group.cpp.o\x1b[0m\n'}
+[28.599501] (-) TimerEvent: {}
+[28.699977] (-) TimerEvent: {}
+[28.800429] (-) TimerEvent: {}
+[28.905954] (-) TimerEvent: {}
+[29.006377] (-) TimerEvent: {}
+[29.106811] (-) TimerEvent: {}
+[29.207526] (-) TimerEvent: {}
+[29.309972] (-) TimerEvent: {}
+[29.410688] (-) TimerEvent: {}
+[29.423982] (imu_ros2) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2_node.dir/src/velangtemp_data_provider.cpp.o\x1b[0m\n'}
+[29.510813] (-) TimerEvent: {}
+[29.611264] (-) TimerEvent: {}
+[29.711968] (-) TimerEvent: {}
+[29.814310] (-) TimerEvent: {}
+[29.914981] (-) TimerEvent: {}
+[30.015632] (-) TimerEvent: {}
+[30.116312] (-) TimerEvent: {}
+[30.220970] (-) TimerEvent: {}
+[30.321386] (-) TimerEvent: {}
+[30.421800] (-) TimerEvent: {}
+[30.522477] (-) TimerEvent: {}
+[30.625973] (-) TimerEvent: {}
+[30.726400] (-) TimerEvent: {}
+[30.829068] (-) TimerEvent: {}
+[30.929533] (-) TimerEvent: {}
+[31.003036] (imu_ros2) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2_node.dir/src/velangtemp_ros_publisher.cpp.o\x1b[0m\n'}
+[31.030975] (-) TimerEvent: {}
+[31.131404] (-) TimerEvent: {}
+[31.235970] (-) TimerEvent: {}
+[31.336384] (-) TimerEvent: {}
+[31.436793] (-) TimerEvent: {}
+[31.537222] (-) TimerEvent: {}
+[31.637623] (-) TimerEvent: {}
+[31.740980] (-) TimerEvent: {}
+[31.841405] (-) TimerEvent: {}
+[31.941819] (-) TimerEvent: {}
+[32.042270] (-) TimerEvent: {}
+[32.143972] (-) TimerEvent: {}
+[32.244402] (-) TimerEvent: {}
+[32.345974] (-) TimerEvent: {}
+[32.446408] (-) TimerEvent: {}
+[32.547969] (-) TimerEvent: {}
+[32.648384] (-) TimerEvent: {}
+[32.749669] (-) TimerEvent: {}
+[32.852390] (-) TimerEvent: {}
+[32.952824] (-) TimerEvent: {}
+[33.055970] (-) TimerEvent: {}
+[33.156369] (-) TimerEvent: {}
+[33.256799] (-) TimerEvent: {}
+[33.357524] (-) TimerEvent: {}
+[33.462165] (-) TimerEvent: {}
+[33.563174] (-) TimerEvent: {}
+[33.663852] (-) TimerEvent: {}
+[33.764543] (-) TimerEvent: {}
+[33.865421] (-) TimerEvent: {}
+[33.966185] (-) TimerEvent: {}
+[34.066601] (-) TimerEvent: {}
+[34.168315] (-) TimerEvent: {}
+[34.269976] (-) TimerEvent: {}
+[34.370398] (-) TimerEvent: {}
+[34.473001] (-) TimerEvent: {}
+[34.573442] (-) TimerEvent: {}
+[34.673864] (-) TimerEvent: {}
+[34.774302] (-) TimerEvent: {}
+[34.874975] (-) TimerEvent: {}
+[34.978985] (-) TimerEvent: {}
+[35.079432] (-) TimerEvent: {}
+[35.179863] (-) TimerEvent: {}
+[35.280598] (-) TimerEvent: {}
+[35.381317] (-) TimerEvent: {}
+[35.485342] (-) TimerEvent: {}
+[35.585804] (-) TimerEvent: {}
+[35.628147] (imu_ros2) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding CXX object CMakeFiles/imu_ros2_node.dir/src/worker_thread.cpp.o\x1b[0m\n'}
+[35.685938] (-) TimerEvent: {}
+[35.786376] (-) TimerEvent: {}
+[35.887099] (-) TimerEvent: {}
+[35.987796] (-) TimerEvent: {}
+[36.088227] (-) TimerEvent: {}
+[36.188615] (-) TimerEvent: {}
+[36.288964] (-) TimerEvent: {}
+[36.389334] (-) TimerEvent: {}
+[36.489720] (-) TimerEvent: {}
+[36.590143] (-) TimerEvent: {}
+[36.690530] (-) TimerEvent: {}
+[36.791972] (-) TimerEvent: {}
+[36.892421] (-) TimerEvent: {}
+[36.992949] (-) TimerEvent: {}
+[37.093365] (-) TimerEvent: {}
+[37.142135] (imu_ros2) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable imu_ros2_test_node\x1b[0m\n'}
+[37.193497] (-) TimerEvent: {}
+[37.293954] (-) TimerEvent: {}
+[37.394381] (-) TimerEvent: {}
+[37.494863] (-) TimerEvent: {}
+[37.595268] (-) TimerEvent: {}
+[37.695711] (-) TimerEvent: {}
+[37.796185] (-) TimerEvent: {}
+[37.897501] (-) TimerEvent: {}
+[37.997974] (-) TimerEvent: {}
+[38.098391] (-) TimerEvent: {}
+[38.198881] (-) TimerEvent: {}
+[38.299290] (-) TimerEvent: {}
+[38.399591] (-) TimerEvent: {}
+[38.499913] (-) TimerEvent: {}
+[38.600211] (-) TimerEvent: {}
+[38.700509] (-) TimerEvent: {}
+[38.800814] (-) TimerEvent: {}
+[38.901132] (-) TimerEvent: {}
+[39.001445] (-) TimerEvent: {}
+[39.101738] (-) TimerEvent: {}
+[39.202016] (-) TimerEvent: {}
+[39.302316] (-) TimerEvent: {}
+[39.402607] (-) TimerEvent: {}
+[39.502933] (-) TimerEvent: {}
+[39.511727] (imu_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable imu_ros2_node\x1b[0m\n'}
+[39.603034] (-) TimerEvent: {}
+[39.654282] (imu_ros2) StdoutLine: {'line': b'[100%] Built target imu_ros2_test_node\n'}
+[39.703133] (-) TimerEvent: {}
+[39.803429] (-) TimerEvent: {}
+[39.903726] (-) TimerEvent: {}
+[40.004045] (-) TimerEvent: {}
+[40.104333] (-) TimerEvent: {}
+[40.167898] (imu_ros2) StdoutLine: {'line': b'[100%] Built target imu_ros2_node\n'}
+[40.182090] (imu_ros2) JobEnded: {'identifier': 'imu_ros2', 'rc': 'SIGINT'}
+[40.192721] (gscam2) JobSkipped: {'identifier': 'gscam2'}
+[40.192795] (-) EventReactorShutdown: {}

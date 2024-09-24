@@ -1,0 +1,53 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from imu_ros2/msg/ImuIdentificationData.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module imu_ros2 {
+  module msg {
+    @verbatim (language="comment", text=
+      "  @file   ImuIdentificationData.msg" "\n"
+      "  @brief  Definition of ImuIdentificationData message" "\n"
+      "  @author RBolboac (ramona.bolboaca@analog.com)" "\n"
+      "" "\n"
+      "Copyright 2023(c) Analog Devices, Inc." "\n"
+      "" "\n"
+      "Licensed under the Apache License, Version 2.0 (the \"License\");" "\n"
+      "you may not use this file except in compliance with the License." "\n"
+      "You may obtain a copy of the License at" "\n"
+      "" "\n"
+      "    http://www.apache.org/licenses/LICENSE-2.0" "\n"
+      "" "\n"
+      "Unless required by applicable law or agreed to in writing, software" "\n"
+      "distributed under the License is distributed on an \"AS IS\" BASIS," "\n"
+      "WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied." "\n"
+      "See the License for the specific language governing permissions and" "\n"
+      "limitations under the License.")
+    struct ImuIdentificationData {
+      @verbatim (language="comment", text=
+        "message header")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "firmware revision for the imu internal firmware")
+      string firmware_revision;
+
+      @verbatim (language="comment", text=
+        "firmware date for the imu internal firmware")
+      string firmware_date;
+
+      @verbatim (language="comment", text=
+        "imu product identification")
+      uint32 product_id;
+
+      @verbatim (language="comment", text=
+        "imu lot specific serial number")
+      uint32 serial_number;
+
+      @verbatim (language="comment", text=
+        "imu gyroscope measurement range")
+      string gyroscope_measurement_range;
+    };
+  };
+};

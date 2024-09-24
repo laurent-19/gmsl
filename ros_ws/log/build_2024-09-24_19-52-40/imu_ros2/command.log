@@ -1,0 +1,1 @@
+Invoking command in '/home/laurus/workspace/gmsl/ros_ws/build/imu_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw:/opt/ros/humble /usr/bin/cmake --build /home/laurus/workspace/gmsl/ros_ws/build/imu_ros2 -- -j8 -l8

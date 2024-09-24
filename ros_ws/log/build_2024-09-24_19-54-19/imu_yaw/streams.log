@@ -1,0 +1,50 @@
+[0.903s] Invoking command in '/home/laurus/workspace/gmsl/ros_ws/src/imu_yaw': PYTHONPATH=/home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/prefix_override:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/imu_yaw build --build-base /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build install --record /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/install.log --single-version-externally-managed install_data
+[1.234s] running egg_info
+[1.235s] creating ../../build/imu_yaw/imu_yaw.egg-info
+[1.235s] writing ../../build/imu_yaw/imu_yaw.egg-info/PKG-INFO
+[1.235s] writing dependency_links to ../../build/imu_yaw/imu_yaw.egg-info/dependency_links.txt
+[1.235s] writing entry points to ../../build/imu_yaw/imu_yaw.egg-info/entry_points.txt
+[1.236s] writing requirements to ../../build/imu_yaw/imu_yaw.egg-info/requires.txt
+[1.236s] writing top-level names to ../../build/imu_yaw/imu_yaw.egg-info/top_level.txt
+[1.236s] writing manifest file '../../build/imu_yaw/imu_yaw.egg-info/SOURCES.txt'
+[1.239s] reading manifest file '../../build/imu_yaw/imu_yaw.egg-info/SOURCES.txt'
+[1.239s] adding license file 'LICENSE'
+[1.240s] writing manifest file '../../build/imu_yaw/imu_yaw.egg-info/SOURCES.txt'
+[1.240s] running build
+[1.240s] running build_py
+[1.240s] creating /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build
+[1.240s] creating /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build/lib
+[1.240s] creating /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build/lib/imu_yaw
+[1.241s] copying imu_yaw/yaw_mux4.py -> /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build/lib/imu_yaw
+[1.241s] copying imu_yaw/yaw_mux8.py -> /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build/lib/imu_yaw
+[1.241s] copying imu_yaw/__init__.py -> /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build/lib/imu_yaw
+[1.241s] copying imu_yaw/imu_pub.py -> /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build/lib/imu_yaw
+[1.241s] copying imu_yaw/imu_yaw.py -> /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build/lib/imu_yaw
+[1.242s] running install
+[1.242s] running install_lib
+[1.244s] creating /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages/imu_yaw
+[1.244s] copying /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build/lib/imu_yaw/yaw_mux4.py -> /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages/imu_yaw
+[1.244s] copying /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build/lib/imu_yaw/yaw_mux8.py -> /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages/imu_yaw
+[1.244s] copying /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build/lib/imu_yaw/__init__.py -> /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages/imu_yaw
+[1.244s] copying /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build/lib/imu_yaw/imu_pub.py -> /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages/imu_yaw
+[1.244s] copying /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build/lib/imu_yaw/imu_yaw.py -> /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages/imu_yaw
+[1.245s] byte-compiling /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages/imu_yaw/yaw_mux4.py to yaw_mux4.cpython-310.pyc
+[1.246s] byte-compiling /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages/imu_yaw/yaw_mux8.py to yaw_mux8.cpython-310.pyc
+[1.248s] byte-compiling /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages/imu_yaw/__init__.py to __init__.cpython-310.pyc
+[1.248s] byte-compiling /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages/imu_yaw/imu_pub.py to imu_pub.cpython-310.pyc
+[1.248s] byte-compiling /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages/imu_yaw/imu_yaw.py to imu_yaw.cpython-310.pyc
+[1.249s] running install_data
+[1.249s] creating /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/share/ament_index
+[1.250s] creating /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/share/ament_index/resource_index
+[1.250s] creating /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/share/ament_index/resource_index/packages
+[1.250s] copying resource/imu_yaw -> /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/share/ament_index/resource_index/packages
+[1.250s] copying package.xml -> /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/share/imu_yaw
+[1.250s] running install_egg_info
+[1.254s] Copying ../../build/imu_yaw/imu_yaw.egg-info to /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages/imu_yaw-0.0.0-py3.10.egg-info
+[1.255s] running install_scripts
+[1.281s] Installing imu_pub script to /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/imu_yaw
+[1.281s] Installing imu_yaw script to /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/imu_yaw
+[1.281s] Installing yaw_mux4 script to /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/imu_yaw
+[1.281s] Installing yaw_mux8 script to /home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/imu_yaw
+[1.282s] writing list of installed files to '/home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/install.log'
+[1.311s] Invoked command in '/home/laurus/workspace/gmsl/ros_ws/src/imu_yaw' returned '0': PYTHONPATH=/home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/prefix_override:/home/laurus/workspace/gmsl/ros_ws/install/imu_yaw/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/imu_yaw build --build-base /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/build install --record /home/laurus/workspace/gmsl/ros_ws/build/imu_yaw/install.log --single-version-externally-managed install_data
